@@ -107,8 +107,8 @@
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
 -define:ENABLE_INPUT_SYSTEM
--define:ENABLE_LEGACY_INPUT_MANAGER
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
+-define:UNITY_POST_PROCESSING_STACK_V2
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"C:/Program Files/Unity/Hub/Editor/2022.2.4f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll"
@@ -305,6 +305,8 @@
 -r:"Library/PackageCache/com.unity.services.wire@1.1.4/Plugins/websocket-sharp.dll"
 -r:"Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Cinemachine.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aP.dag/Purchasing.Common.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aP.dag/Unity.Analytics.DataPrivacy.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.Burst.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.Collections.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.InputSystem.ref.dll"
@@ -312,12 +314,14 @@
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.Netcode.Components.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.Netcode.Runtime.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.Networking.Transport.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aP.dag/Unity.Postprocessing.Runtime.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.RenderPipeline.Universal.ShaderLibrary.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.RenderPipelines.Core.Runtime.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.RenderPipelines.Core.ShaderLibrary.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.RenderPipelines.Universal.Runtime.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.RenderPipelines.Universal.Shaders.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aP.dag/Unity.Services.Analytics.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.Services.Authentication.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.Services.Core.Analytics.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.Services.Core.Environments.ref.dll"
@@ -330,10 +334,22 @@
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Core.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Flow.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.State.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.Advertisements.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.Purchasing.Codeless.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.Purchasing.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.Purchasing.SecurityCore.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.Purchasing.SecurityStub.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.Purchasing.Stores.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.SpatialTracking.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.2.4f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.2.4f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
-"Assets/Scripts/Networking/JoinServer.cs"
+"Assets/Scripts/Inputs/Controls.cs"
+"Assets/Scripts/Inputs/InputReader.cs"
+"Assets/Scripts/Inputs/InputTest.cs"
+"Assets/Scripts/Networking/ClientNetworkTransform.cs"
+"Assets/Scripts/Networking/ConnectionButtons.cs"
 -langversion:9.0
 
 /deterministic

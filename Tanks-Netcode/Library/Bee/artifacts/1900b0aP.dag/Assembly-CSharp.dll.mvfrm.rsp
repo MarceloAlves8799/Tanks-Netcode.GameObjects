@@ -1,3 +1,4 @@
+Library\Bee\artifacts\mvdfrm\Unity.Analytics.DataPrivacy.ref.dll_CB4D93EC20F07CC9.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Burst.ref.dll_14316E70964BB953.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Collections.ref.dll_914F3C16C2C534D8.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.InputSystem.ref.dll_29109081F030768C.mvfrm
@@ -5,12 +6,14 @@ Library\Bee\artifacts\mvdfrm\Unity.Mathematics.ref.dll_14D1A32168A0AD59.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Netcode.Components.ref.dll_5A3B7C8B7A362DFD.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Netcode.Runtime.ref.dll_90BD8F2F0A0A5847.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Networking.Transport.ref.dll_402129430A0ABF72.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Postprocessing.Runtime.ref.dll_AB90C03FF8D63420.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.RenderPipeline.Universal.ShaderLibrary.ref.dll_3F999310E5378770.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.RenderPipelines.Core.Runtime.ref.dll_CA9A1FD000BA57CF.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.RenderPipelines.Core.ShaderLibrary.ref.dll_86BC04EDBBAD6DBD.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.ref.dll_2AC6C82FC7FB4B7D.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.RenderPipelines.Universal.Runtime.ref.dll_F2E669F900AB6F15.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.RenderPipelines.Universal.Shaders.ref.dll_334E79423F1A0A4B.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Services.Analytics.ref.dll_EB4B42A2B9006E39.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Services.Authentication.ref.dll_9531D9BB8FB3E42B.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Services.Core.Analytics.ref.dll_D88AC28E7AE24D0A.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Services.Core.Environments.ref.dll_29C0C4FBB515A292.mvfrm
@@ -23,7 +26,15 @@ Library\Bee\artifacts\mvdfrm\Unity.Timeline.ref.dll_54050F91DBE64E14.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.VisualScripting.Core.ref.dll_27ACA245D8399F39.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.VisualScripting.Flow.ref.dll_6EBD829C5A4313E8.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.VisualScripting.State.ref.dll_F0190167D28F2F4D.mvfrm
+Library\Bee\artifacts\mvdfrm\UnityEngine.Advertisements.ref.dll_829A9F68D56B752F.mvfrm
+Library\Bee\artifacts\mvdfrm\UnityEngine.Purchasing.Codeless.ref.dll_F4E278E41B88977B.mvfrm
+Library\Bee\artifacts\mvdfrm\UnityEngine.Purchasing.SecurityCore.ref.dll_37D362000A37D944.mvfrm
+Library\Bee\artifacts\mvdfrm\UnityEngine.Purchasing.SecurityStub.ref.dll_82FA26F3ADA49483.mvfrm
+Library\Bee\artifacts\mvdfrm\UnityEngine.Purchasing.Stores.ref.dll_BCC932A586FE2DF7.mvfrm
+Library\Bee\artifacts\mvdfrm\UnityEngine.Purchasing.ref.dll_03C7ACED11CBE8AF.mvfrm
+Library\Bee\artifacts\mvdfrm\UnityEngine.SpatialTracking.ref.dll_2C547B3FC7BA6200.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEngine.UI.ref.dll_FAE6DBEA21006BE5.mvfrm
+Library\Bee\artifacts\mvdfrm\UnityEngine.XR.LegacyInputHelpers.ref.dll_DAE36B275AEB308D.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEngine.AccessibilityModule.dll_0FA1E0EAB462105A.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEngine.AIModule.dll_6F7838FD7DC21100.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEngine.AndroidJNIModule.dll_5088A58E1AA956BE.mvfrm

@@ -184,7 +184,25 @@
         176,
         177,
         178,
-        179
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197
       ],
       "OverwriteOutputs": false,
       "DebugActionIndex": 0
@@ -334,17 +352,29 @@
       "DebugActionIndex": 12
     },
     {
+      "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/sharedassets0.resource",
+      "DisplayName": "Copying sharedassets0.resource",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/sharedassets0.resource"
+      ],
+      "Outputs": [
+        "Builds/Tanks-Netcode_Data/sharedassets0.resource"
+      ],
+      "DebugActionIndex": 13
+    },
+    {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/boot.config_tyr4.info",
       "DisplayName": "Writing boot.config_tyr4.info",
       "ActionType": "WriteFile",
       "PayloadOffset": 83,
-      "PayloadLength": 20070,
+      "PayloadLength": 22176,
       "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/boot.config_tyr4.info"
       ],
-      "DebugActionIndex": 13
+      "DebugActionIndex": 14
     },
     {
       "Annotation": "AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config",
@@ -365,6 +395,7 @@
         "Library/PlayerDataCache/Win64/Data/ScriptingAssemblies.json",
         "Library/PlayerDataCache/Win64/Data/sharedassets0.assets",
         "Library/PlayerDataCache/Win64/Data/sharedassets0.assets.resS",
+        "Library/PlayerDataCache/Win64/Data/sharedassets0.resource",
         "C:/Program Files/Unity/Hub/Editor/2022.2.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AIModule.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.2.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ARModule.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.2.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AccessibilityModule.dll",
@@ -434,7 +465,12 @@
         "C:/Program Files/Unity/Hub/Editor/2022.2.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.2.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll",
+        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/UnityEngine.Purchasing.AppleMacosStub.dll",
+        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/UnityEngine.Purchasing.Stores.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll",
+        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.Postprocessing.Runtime.dll",
+        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/UnityEngine.Purchasing.AppleStub.dll",
+        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.Analytics.DataPrivacy.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Environments.Internal.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.Services.Multiplay.dll",
@@ -445,26 +481,38 @@
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Scheduler.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Environments.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Configuration.dll",
+        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/UnityEngine.Purchasing.SecurityCore.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll",
+        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/UnityEngine.Purchasing.WinRTStub.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.Collections.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.Netcode.Runtime.dll",
+        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/UnityEngine.Purchasing.Codeless.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Analytics.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.Services.Wire.Internal.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.Services.Multiplay.Wire.Internal.dll",
+        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/UnityEngine.Purchasing.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
+        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/UnityEngine.Purchasing.AppleCore.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll",
+        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll",
+        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/UnityEngine.Purchasing.WinRTCore.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.Burst.dll",
+        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/UnityEngine.Purchasing.SecurityStub.dll",
+        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/UnityEngine.Advertisements.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Internal.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Device.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Threading.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll",
-        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll",
+        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/UnityEngine.SpatialTracking.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Telemetry.dll",
+        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.Services.Multiplay.Sqp.dll",
+        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Purchasing.Common.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.InputSystem.dll",
+        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.Services.Analytics.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.Services.Authentication.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.Services.Matchmaker.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.Mathematics.dll",
@@ -472,10 +520,10 @@
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Registration.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Cinemachine.dll",
+        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/PackageCache/com.unity.services.wire@1.1.4/Plugins/websocket-sharp.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/PackageCache/com.unity.collections@1.2.4/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/PackageCache/com.unity.burst@1.8.2/Unity.Burst.Unsafe.dll",
-        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/PackageCache/com.unity.services.wire@1.1.4/Plugins/websocket-sharp.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/AOT/Newtonsoft.Json.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.2.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Runtime.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.2.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/netstandard.dll",
@@ -540,12 +588,12 @@
         "Library/Bee/artifacts/WinPlayerBuildProgram/boot.config"
       ],
       "ToBuildDependencies": [
-        13
+        14
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 14
+      "DebugActionIndex": 15
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/boot.config",
@@ -558,9 +606,9 @@
         "Builds/Tanks-Netcode_Data/boot.config"
       ],
       "ToBuildDependencies": [
-        14
+        15
       ],
-      "DebugActionIndex": 15
+      "DebugActionIndex": 16
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/StreamingAssets/UnityServicesProjectConfiguration.json",
@@ -572,7 +620,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/StreamingAssets/UnityServicesProjectConfiguration.json"
       ],
-      "DebugActionIndex": 16
+      "DebugActionIndex": 17
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.AIModule.dll",
@@ -584,7 +632,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.AIModule.dll"
       ],
-      "DebugActionIndex": 17
+      "DebugActionIndex": 18
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.ARModule.dll",
@@ -596,7 +644,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.ARModule.dll"
       ],
-      "DebugActionIndex": 18
+      "DebugActionIndex": 19
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.AccessibilityModule.dll",
@@ -608,7 +656,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.AccessibilityModule.dll"
       ],
-      "DebugActionIndex": 19
+      "DebugActionIndex": 20
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.AndroidJNIModule.dll",
@@ -620,7 +668,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.AndroidJNIModule.dll"
       ],
-      "DebugActionIndex": 20
+      "DebugActionIndex": 21
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.AnimationModule.dll",
@@ -632,7 +680,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.AnimationModule.dll"
       ],
-      "DebugActionIndex": 21
+      "DebugActionIndex": 22
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.AssetBundleModule.dll",
@@ -644,7 +692,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.AssetBundleModule.dll"
       ],
-      "DebugActionIndex": 22
+      "DebugActionIndex": 23
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.AudioModule.dll",
@@ -656,7 +704,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.AudioModule.dll"
       ],
-      "DebugActionIndex": 23
+      "DebugActionIndex": 24
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.ClothModule.dll",
@@ -668,7 +716,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.ClothModule.dll"
       ],
-      "DebugActionIndex": 24
+      "DebugActionIndex": 25
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.ClusterInputModule.dll",
@@ -680,7 +728,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.ClusterInputModule.dll"
       ],
-      "DebugActionIndex": 25
+      "DebugActionIndex": 26
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.ClusterRendererModule.dll",
@@ -692,7 +740,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.ClusterRendererModule.dll"
       ],
-      "DebugActionIndex": 26
+      "DebugActionIndex": 27
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.ContentLoadModule.dll",
@@ -704,7 +752,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.ContentLoadModule.dll"
       ],
-      "DebugActionIndex": 27
+      "DebugActionIndex": 28
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.CoreModule.dll",
@@ -716,7 +764,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.CoreModule.dll"
       ],
-      "DebugActionIndex": 28
+      "DebugActionIndex": 29
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.CrashReportingModule.dll",
@@ -728,7 +776,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.CrashReportingModule.dll"
       ],
-      "DebugActionIndex": 29
+      "DebugActionIndex": 30
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.DSPGraphModule.dll",
@@ -740,7 +788,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.DSPGraphModule.dll"
       ],
-      "DebugActionIndex": 30
+      "DebugActionIndex": 31
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.DirectorModule.dll",
@@ -752,7 +800,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.DirectorModule.dll"
       ],
-      "DebugActionIndex": 31
+      "DebugActionIndex": 32
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.GIModule.dll",
@@ -764,7 +812,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.GIModule.dll"
       ],
-      "DebugActionIndex": 32
+      "DebugActionIndex": 33
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.GameCenterModule.dll",
@@ -776,7 +824,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.GameCenterModule.dll"
       ],
-      "DebugActionIndex": 33
+      "DebugActionIndex": 34
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.GridModule.dll",
@@ -788,7 +836,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.GridModule.dll"
       ],
-      "DebugActionIndex": 34
+      "DebugActionIndex": 35
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.HotReloadModule.dll",
@@ -800,7 +848,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.HotReloadModule.dll"
       ],
-      "DebugActionIndex": 35
+      "DebugActionIndex": 36
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.IMGUIModule.dll",
@@ -812,7 +860,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.IMGUIModule.dll"
       ],
-      "DebugActionIndex": 36
+      "DebugActionIndex": 37
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.ImageConversionModule.dll",
@@ -824,7 +872,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.ImageConversionModule.dll"
       ],
-      "DebugActionIndex": 37
+      "DebugActionIndex": 38
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.InputLegacyModule.dll",
@@ -836,7 +884,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.InputLegacyModule.dll"
       ],
-      "DebugActionIndex": 38
+      "DebugActionIndex": 39
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.InputModule.dll",
@@ -848,7 +896,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.InputModule.dll"
       ],
-      "DebugActionIndex": 39
+      "DebugActionIndex": 40
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.JSONSerializeModule.dll",
@@ -860,7 +908,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.JSONSerializeModule.dll"
       ],
-      "DebugActionIndex": 40
+      "DebugActionIndex": 41
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.LocalizationModule.dll",
@@ -872,7 +920,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.LocalizationModule.dll"
       ],
-      "DebugActionIndex": 41
+      "DebugActionIndex": 42
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.NVIDIAModule.dll",
@@ -884,7 +932,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.NVIDIAModule.dll"
       ],
-      "DebugActionIndex": 42
+      "DebugActionIndex": 43
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.ParticleSystemModule.dll",
@@ -896,7 +944,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.ParticleSystemModule.dll"
       ],
-      "DebugActionIndex": 43
+      "DebugActionIndex": 44
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.PerformanceReportingModule.dll",
@@ -908,7 +956,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.PerformanceReportingModule.dll"
       ],
-      "DebugActionIndex": 44
+      "DebugActionIndex": 45
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.Physics2DModule.dll",
@@ -920,7 +968,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.Physics2DModule.dll"
       ],
-      "DebugActionIndex": 45
+      "DebugActionIndex": 46
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.PhysicsModule.dll",
@@ -932,7 +980,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.PhysicsModule.dll"
       ],
-      "DebugActionIndex": 46
+      "DebugActionIndex": 47
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.ProfilerModule.dll",
@@ -944,7 +992,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.ProfilerModule.dll"
       ],
-      "DebugActionIndex": 47
+      "DebugActionIndex": 48
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.PropertiesModule.dll",
@@ -956,7 +1004,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.PropertiesModule.dll"
       ],
-      "DebugActionIndex": 48
+      "DebugActionIndex": 49
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
@@ -968,7 +1016,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
       ],
-      "DebugActionIndex": 49
+      "DebugActionIndex": 50
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.ScreenCaptureModule.dll",
@@ -980,7 +1028,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.ScreenCaptureModule.dll"
       ],
-      "DebugActionIndex": 50
+      "DebugActionIndex": 51
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.SharedInternalsModule.dll",
@@ -992,7 +1040,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.SharedInternalsModule.dll"
       ],
-      "DebugActionIndex": 51
+      "DebugActionIndex": 52
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.SpriteMaskModule.dll",
@@ -1004,7 +1052,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.SpriteMaskModule.dll"
       ],
-      "DebugActionIndex": 52
+      "DebugActionIndex": 53
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.SpriteShapeModule.dll",
@@ -1016,7 +1064,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.SpriteShapeModule.dll"
       ],
-      "DebugActionIndex": 53
+      "DebugActionIndex": 54
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.StreamingModule.dll",
@@ -1028,7 +1076,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.StreamingModule.dll"
       ],
-      "DebugActionIndex": 54
+      "DebugActionIndex": 55
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.SubstanceModule.dll",
@@ -1040,7 +1088,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.SubstanceModule.dll"
       ],
-      "DebugActionIndex": 55
+      "DebugActionIndex": 56
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.SubsystemsModule.dll",
@@ -1052,7 +1100,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.SubsystemsModule.dll"
       ],
-      "DebugActionIndex": 56
+      "DebugActionIndex": 57
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.TLSModule.dll",
@@ -1064,7 +1112,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.TLSModule.dll"
       ],
-      "DebugActionIndex": 57
+      "DebugActionIndex": 58
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.TerrainModule.dll",
@@ -1076,7 +1124,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.TerrainModule.dll"
       ],
-      "DebugActionIndex": 58
+      "DebugActionIndex": 59
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.TerrainPhysicsModule.dll",
@@ -1088,7 +1136,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.TerrainPhysicsModule.dll"
       ],
-      "DebugActionIndex": 59
+      "DebugActionIndex": 60
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll",
@@ -1100,7 +1148,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll"
       ],
-      "DebugActionIndex": 60
+      "DebugActionIndex": 61
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll",
@@ -1112,7 +1160,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll"
       ],
-      "DebugActionIndex": 61
+      "DebugActionIndex": 62
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.TextRenderingModule.dll",
@@ -1124,7 +1172,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.TextRenderingModule.dll"
       ],
-      "DebugActionIndex": 62
+      "DebugActionIndex": 63
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.TilemapModule.dll",
@@ -1136,7 +1184,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.TilemapModule.dll"
       ],
-      "DebugActionIndex": 63
+      "DebugActionIndex": 64
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.UIElementsModule.dll",
@@ -1148,7 +1196,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.UIElementsModule.dll"
       ],
-      "DebugActionIndex": 64
+      "DebugActionIndex": 65
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.UIModule.dll",
@@ -1160,7 +1208,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.UIModule.dll"
       ],
-      "DebugActionIndex": 65
+      "DebugActionIndex": 66
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.UmbraModule.dll",
@@ -1172,7 +1220,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.UmbraModule.dll"
       ],
-      "DebugActionIndex": 66
+      "DebugActionIndex": 67
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll",
@@ -1184,7 +1232,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll"
       ],
-      "DebugActionIndex": 67
+      "DebugActionIndex": 68
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
@@ -1196,7 +1244,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.UnityAnalyticsModule.dll"
       ],
-      "DebugActionIndex": 68
+      "DebugActionIndex": 69
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.UnityConnectModule.dll",
@@ -1208,7 +1256,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.UnityConnectModule.dll"
       ],
-      "DebugActionIndex": 69
+      "DebugActionIndex": 70
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.UnityCurlModule.dll",
@@ -1220,7 +1268,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.UnityCurlModule.dll"
       ],
-      "DebugActionIndex": 70
+      "DebugActionIndex": 71
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.UnityTestProtocolModule.dll",
@@ -1232,7 +1280,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.UnityTestProtocolModule.dll"
       ],
-      "DebugActionIndex": 71
+      "DebugActionIndex": 72
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll",
@@ -1244,7 +1292,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll"
       ],
-      "DebugActionIndex": 72
+      "DebugActionIndex": 73
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll",
@@ -1256,7 +1304,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll"
       ],
-      "DebugActionIndex": 73
+      "DebugActionIndex": 74
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.UnityWebRequestModule.dll",
@@ -1268,7 +1316,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.UnityWebRequestModule.dll"
       ],
-      "DebugActionIndex": 74
+      "DebugActionIndex": 75
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll",
@@ -1280,7 +1328,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll"
       ],
-      "DebugActionIndex": 75
+      "DebugActionIndex": 76
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll",
@@ -1292,7 +1340,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll"
       ],
-      "DebugActionIndex": 76
+      "DebugActionIndex": 77
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.VFXModule.dll",
@@ -1304,7 +1352,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.VFXModule.dll"
       ],
-      "DebugActionIndex": 77
+      "DebugActionIndex": 78
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.VRModule.dll",
@@ -1316,7 +1364,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.VRModule.dll"
       ],
-      "DebugActionIndex": 78
+      "DebugActionIndex": 79
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.VehiclesModule.dll",
@@ -1328,7 +1376,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.VehiclesModule.dll"
       ],
-      "DebugActionIndex": 79
+      "DebugActionIndex": 80
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.VideoModule.dll",
@@ -1340,7 +1388,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.VideoModule.dll"
       ],
-      "DebugActionIndex": 80
+      "DebugActionIndex": 81
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.VirtualTexturingModule.dll",
@@ -1352,7 +1400,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.VirtualTexturingModule.dll"
       ],
-      "DebugActionIndex": 81
+      "DebugActionIndex": 82
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.WindModule.dll",
@@ -1364,7 +1412,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.WindModule.dll"
       ],
-      "DebugActionIndex": 82
+      "DebugActionIndex": 83
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.XRModule.dll",
@@ -1376,7 +1424,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.XRModule.dll"
       ],
-      "DebugActionIndex": 83
+      "DebugActionIndex": 84
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.dll",
@@ -1388,7 +1436,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/UnityEngine.dll"
       ],
-      "DebugActionIndex": 84
+      "DebugActionIndex": 85
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/Assembly-CSharp.dll",
@@ -1400,7 +1448,31 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/Assembly-CSharp.dll"
       ],
-      "DebugActionIndex": 85
+      "DebugActionIndex": 86
+    },
+    {
+      "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll",
+      "DisplayName": "Copying UnityEngine.Purchasing.AppleMacosStub.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/UnityEngine.Purchasing.AppleMacosStub.dll"
+      ],
+      "Outputs": [
+        "Builds/Tanks-Netcode_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll"
+      ],
+      "DebugActionIndex": 87
+    },
+    {
+      "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.Purchasing.Stores.dll",
+      "DisplayName": "Copying UnityEngine.Purchasing.Stores.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/UnityEngine.Purchasing.Stores.dll"
+      ],
+      "Outputs": [
+        "Builds/Tanks-Netcode_Data/Managed/UnityEngine.Purchasing.Stores.dll"
+      ],
+      "DebugActionIndex": 88
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll",
@@ -1412,7 +1484,43 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll"
       ],
-      "DebugActionIndex": 86
+      "DebugActionIndex": 89
+    },
+    {
+      "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/Unity.Postprocessing.Runtime.dll",
+      "DisplayName": "Copying Unity.Postprocessing.Runtime.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.Postprocessing.Runtime.dll"
+      ],
+      "Outputs": [
+        "Builds/Tanks-Netcode_Data/Managed/Unity.Postprocessing.Runtime.dll"
+      ],
+      "DebugActionIndex": 90
+    },
+    {
+      "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.Purchasing.AppleStub.dll",
+      "DisplayName": "Copying UnityEngine.Purchasing.AppleStub.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/UnityEngine.Purchasing.AppleStub.dll"
+      ],
+      "Outputs": [
+        "Builds/Tanks-Netcode_Data/Managed/UnityEngine.Purchasing.AppleStub.dll"
+      ],
+      "DebugActionIndex": 91
+    },
+    {
+      "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/Unity.Analytics.DataPrivacy.dll",
+      "DisplayName": "Copying Unity.Analytics.DataPrivacy.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.Analytics.DataPrivacy.dll"
+      ],
+      "Outputs": [
+        "Builds/Tanks-Netcode_Data/Managed/Unity.Analytics.DataPrivacy.dll"
+      ],
+      "DebugActionIndex": 92
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/Unity.Services.Core.Environments.Internal.dll",
@@ -1424,7 +1532,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/Unity.Services.Core.Environments.Internal.dll"
       ],
-      "DebugActionIndex": 87
+      "DebugActionIndex": 93
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/Unity.Services.Core.dll",
@@ -1436,7 +1544,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/Unity.Services.Core.dll"
       ],
-      "DebugActionIndex": 88
+      "DebugActionIndex": 94
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/Unity.Services.Multiplay.dll",
@@ -1448,7 +1556,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/Unity.Services.Multiplay.dll"
       ],
-      "DebugActionIndex": 89
+      "DebugActionIndex": 95
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/Unity.Services.Core.Networking.dll",
@@ -1460,7 +1568,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/Unity.Services.Core.Networking.dll"
       ],
-      "DebugActionIndex": 90
+      "DebugActionIndex": 96
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/Unity.Networking.Transport.dll",
@@ -1472,7 +1580,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/Unity.Networking.Transport.dll"
       ],
-      "DebugActionIndex": 91
+      "DebugActionIndex": 97
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/Unity.VisualScripting.Flow.dll",
@@ -1484,7 +1592,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/Unity.VisualScripting.Flow.dll"
       ],
-      "DebugActionIndex": 92
+      "DebugActionIndex": 98
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/Unity.Netcode.Components.dll",
@@ -1496,7 +1604,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/Unity.Netcode.Components.dll"
       ],
-      "DebugActionIndex": 93
+      "DebugActionIndex": 99
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/Unity.Services.Core.Scheduler.dll",
@@ -1508,7 +1616,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/Unity.Services.Core.Scheduler.dll"
       ],
-      "DebugActionIndex": 94
+      "DebugActionIndex": 100
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/Unity.Services.Core.Environments.dll",
@@ -1520,7 +1628,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/Unity.Services.Core.Environments.dll"
       ],
-      "DebugActionIndex": 95
+      "DebugActionIndex": 101
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/Unity.Services.Core.Configuration.dll",
@@ -1532,7 +1640,19 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/Unity.Services.Core.Configuration.dll"
       ],
-      "DebugActionIndex": 96
+      "DebugActionIndex": 102
+    },
+    {
+      "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll",
+      "DisplayName": "Copying UnityEngine.Purchasing.SecurityCore.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/UnityEngine.Purchasing.SecurityCore.dll"
+      ],
+      "Outputs": [
+        "Builds/Tanks-Netcode_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll"
+      ],
+      "DebugActionIndex": 103
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll",
@@ -1544,7 +1664,19 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll"
       ],
-      "DebugActionIndex": 97
+      "DebugActionIndex": 104
+    },
+    {
+      "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll",
+      "DisplayName": "Copying UnityEngine.Purchasing.WinRTStub.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/UnityEngine.Purchasing.WinRTStub.dll"
+      ],
+      "Outputs": [
+        "Builds/Tanks-Netcode_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll"
+      ],
+      "DebugActionIndex": 105
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/Unity.Collections.dll",
@@ -1556,7 +1688,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/Unity.Collections.dll"
       ],
-      "DebugActionIndex": 98
+      "DebugActionIndex": 106
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/Unity.Netcode.Runtime.dll",
@@ -1568,7 +1700,19 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/Unity.Netcode.Runtime.dll"
       ],
-      "DebugActionIndex": 99
+      "DebugActionIndex": 107
+    },
+    {
+      "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.Purchasing.Codeless.dll",
+      "DisplayName": "Copying UnityEngine.Purchasing.Codeless.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/UnityEngine.Purchasing.Codeless.dll"
+      ],
+      "Outputs": [
+        "Builds/Tanks-Netcode_Data/Managed/UnityEngine.Purchasing.Codeless.dll"
+      ],
+      "DebugActionIndex": 108
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/Unity.TextMeshPro.dll",
@@ -1580,7 +1724,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/Unity.TextMeshPro.dll"
       ],
-      "DebugActionIndex": 100
+      "DebugActionIndex": 109
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/Unity.Services.Core.Analytics.dll",
@@ -1592,7 +1736,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/Unity.Services.Core.Analytics.dll"
       ],
-      "DebugActionIndex": 101
+      "DebugActionIndex": 110
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/Unity.Services.Wire.Internal.dll",
@@ -1604,7 +1748,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/Unity.Services.Wire.Internal.dll"
       ],
-      "DebugActionIndex": 102
+      "DebugActionIndex": 111
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/Unity.Services.Multiplay.Wire.Internal.dll",
@@ -1616,7 +1760,19 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/Unity.Services.Multiplay.Wire.Internal.dll"
       ],
-      "DebugActionIndex": 103
+      "DebugActionIndex": 112
+    },
+    {
+      "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.Purchasing.dll",
+      "DisplayName": "Copying UnityEngine.Purchasing.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/UnityEngine.Purchasing.dll"
+      ],
+      "Outputs": [
+        "Builds/Tanks-Netcode_Data/Managed/UnityEngine.Purchasing.dll"
+      ],
+      "DebugActionIndex": 113
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
@@ -1628,7 +1784,19 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll"
       ],
-      "DebugActionIndex": 104
+      "DebugActionIndex": 114
+    },
+    {
+      "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.Purchasing.AppleCore.dll",
+      "DisplayName": "Copying UnityEngine.Purchasing.AppleCore.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/UnityEngine.Purchasing.AppleCore.dll"
+      ],
+      "Outputs": [
+        "Builds/Tanks-Netcode_Data/Managed/UnityEngine.Purchasing.AppleCore.dll"
+      ],
+      "DebugActionIndex": 115
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll",
@@ -1640,7 +1808,31 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll"
       ],
-      "DebugActionIndex": 105
+      "DebugActionIndex": 116
+    },
+    {
+      "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll",
+      "DisplayName": "Copying UnityEngine.XR.LegacyInputHelpers.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll"
+      ],
+      "Outputs": [
+        "Builds/Tanks-Netcode_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll"
+      ],
+      "DebugActionIndex": 117
+    },
+    {
+      "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll",
+      "DisplayName": "Copying UnityEngine.Purchasing.WinRTCore.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/UnityEngine.Purchasing.WinRTCore.dll"
+      ],
+      "Outputs": [
+        "Builds/Tanks-Netcode_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll"
+      ],
+      "DebugActionIndex": 118
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/Unity.Burst.dll",
@@ -1652,7 +1844,31 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/Unity.Burst.dll"
       ],
-      "DebugActionIndex": 106
+      "DebugActionIndex": 119
+    },
+    {
+      "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll",
+      "DisplayName": "Copying UnityEngine.Purchasing.SecurityStub.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/UnityEngine.Purchasing.SecurityStub.dll"
+      ],
+      "Outputs": [
+        "Builds/Tanks-Netcode_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll"
+      ],
+      "DebugActionIndex": 120
+    },
+    {
+      "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.Advertisements.dll",
+      "DisplayName": "Copying UnityEngine.Advertisements.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/UnityEngine.Advertisements.dll"
+      ],
+      "Outputs": [
+        "Builds/Tanks-Netcode_Data/Managed/UnityEngine.Advertisements.dll"
+      ],
+      "DebugActionIndex": 121
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/Unity.Services.Core.Internal.dll",
@@ -1664,7 +1880,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/Unity.Services.Core.Internal.dll"
       ],
-      "DebugActionIndex": 107
+      "DebugActionIndex": 122
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/Unity.Services.Core.Device.dll",
@@ -1676,7 +1892,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/Unity.Services.Core.Device.dll"
       ],
-      "DebugActionIndex": 108
+      "DebugActionIndex": 123
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/Unity.Services.Core.Threading.dll",
@@ -1688,7 +1904,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/Unity.Services.Core.Threading.dll"
       ],
-      "DebugActionIndex": 109
+      "DebugActionIndex": 124
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/Unity.VisualScripting.Core.dll",
@@ -1700,19 +1916,19 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/Unity.VisualScripting.Core.dll"
       ],
-      "DebugActionIndex": 110
+      "DebugActionIndex": 125
     },
     {
-      "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.UI.dll",
-      "DisplayName": "Copying UnityEngine.UI.dll",
+      "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.SpatialTracking.dll",
+      "DisplayName": "Copying UnityEngine.SpatialTracking.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll"
+        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/UnityEngine.SpatialTracking.dll"
       ],
       "Outputs": [
-        "Builds/Tanks-Netcode_Data/Managed/UnityEngine.UI.dll"
+        "Builds/Tanks-Netcode_Data/Managed/UnityEngine.SpatialTracking.dll"
       ],
-      "DebugActionIndex": 111
+      "DebugActionIndex": 126
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/Unity.Services.Core.Telemetry.dll",
@@ -1724,7 +1940,19 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/Unity.Services.Core.Telemetry.dll"
       ],
-      "DebugActionIndex": 112
+      "DebugActionIndex": 127
+    },
+    {
+      "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/UnityEngine.UI.dll",
+      "DisplayName": "Copying UnityEngine.UI.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll"
+      ],
+      "Outputs": [
+        "Builds/Tanks-Netcode_Data/Managed/UnityEngine.UI.dll"
+      ],
+      "DebugActionIndex": 128
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/Unity.Services.Multiplay.Sqp.dll",
@@ -1736,7 +1964,19 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/Unity.Services.Multiplay.Sqp.dll"
       ],
-      "DebugActionIndex": 113
+      "DebugActionIndex": 129
+    },
+    {
+      "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/Purchasing.Common.dll",
+      "DisplayName": "Copying Purchasing.Common.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Purchasing.Common.dll"
+      ],
+      "Outputs": [
+        "Builds/Tanks-Netcode_Data/Managed/Purchasing.Common.dll"
+      ],
+      "DebugActionIndex": 130
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll",
@@ -1748,7 +1988,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll"
       ],
-      "DebugActionIndex": 114
+      "DebugActionIndex": 131
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/Unity.Timeline.dll",
@@ -1760,7 +2000,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/Unity.Timeline.dll"
       ],
-      "DebugActionIndex": 115
+      "DebugActionIndex": 132
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/Unity.InputSystem.dll",
@@ -1772,7 +2012,19 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/Unity.InputSystem.dll"
       ],
-      "DebugActionIndex": 116
+      "DebugActionIndex": 133
+    },
+    {
+      "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/Unity.Services.Analytics.dll",
+      "DisplayName": "Copying Unity.Services.Analytics.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.Services.Analytics.dll"
+      ],
+      "Outputs": [
+        "Builds/Tanks-Netcode_Data/Managed/Unity.Services.Analytics.dll"
+      ],
+      "DebugActionIndex": 134
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/Unity.Services.Authentication.dll",
@@ -1784,7 +2036,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/Unity.Services.Authentication.dll"
       ],
-      "DebugActionIndex": 117
+      "DebugActionIndex": 135
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/Unity.Services.Matchmaker.dll",
@@ -1796,7 +2048,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/Unity.Services.Matchmaker.dll"
       ],
-      "DebugActionIndex": 118
+      "DebugActionIndex": 136
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/Unity.Mathematics.dll",
@@ -1808,7 +2060,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/Unity.Mathematics.dll"
       ],
-      "DebugActionIndex": 119
+      "DebugActionIndex": 137
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll",
@@ -1820,7 +2072,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll"
       ],
-      "DebugActionIndex": 120
+      "DebugActionIndex": 138
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/Unity.Services.Core.Registration.dll",
@@ -1832,7 +2084,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/Unity.Services.Core.Registration.dll"
       ],
-      "DebugActionIndex": 121
+      "DebugActionIndex": 139
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/Unity.VisualScripting.State.dll",
@@ -1844,7 +2096,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/Unity.VisualScripting.State.dll"
       ],
-      "DebugActionIndex": 122
+      "DebugActionIndex": 140
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/Cinemachine.dll",
@@ -1856,43 +2108,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/Cinemachine.dll"
       ],
-      "DebugActionIndex": 123
-    },
-    {
-      "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll",
-      "DisplayName": "Copying Unity.Collections.LowLevel.ILSupport.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/PackageCache/com.unity.collections@1.2.4/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll"
-      ],
-      "Outputs": [
-        "Builds/Tanks-Netcode_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll"
-      ],
-      "DebugActionIndex": 124
-    },
-    {
-      "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll",
-      "DisplayName": "Copying Unity.VisualScripting.Antlr3.Runtime.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
-      ],
-      "Outputs": [
-        "Builds/Tanks-Netcode_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll"
-      ],
-      "DebugActionIndex": 125
-    },
-    {
-      "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/Unity.Burst.Unsafe.dll",
-      "DisplayName": "Copying Unity.Burst.Unsafe.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/PackageCache/com.unity.burst@1.8.2/Unity.Burst.Unsafe.dll"
-      ],
-      "Outputs": [
-        "Builds/Tanks-Netcode_Data/Managed/Unity.Burst.Unsafe.dll"
-      ],
-      "DebugActionIndex": 126
+      "DebugActionIndex": 141
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/websocket-sharp.dll",
@@ -1904,7 +2120,43 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/websocket-sharp.dll"
       ],
-      "DebugActionIndex": 127
+      "DebugActionIndex": 142
+    },
+    {
+      "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll",
+      "DisplayName": "Copying Unity.Collections.LowLevel.ILSupport.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/PackageCache/com.unity.collections@1.2.4/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll"
+      ],
+      "Outputs": [
+        "Builds/Tanks-Netcode_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll"
+      ],
+      "DebugActionIndex": 143
+    },
+    {
+      "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll",
+      "DisplayName": "Copying Unity.VisualScripting.Antlr3.Runtime.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+      ],
+      "Outputs": [
+        "Builds/Tanks-Netcode_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll"
+      ],
+      "DebugActionIndex": 144
+    },
+    {
+      "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/Unity.Burst.Unsafe.dll",
+      "DisplayName": "Copying Unity.Burst.Unsafe.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/PackageCache/com.unity.burst@1.8.2/Unity.Burst.Unsafe.dll"
+      ],
+      "Outputs": [
+        "Builds/Tanks-Netcode_Data/Managed/Unity.Burst.Unsafe.dll"
+      ],
+      "DebugActionIndex": 145
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/Newtonsoft.Json.dll",
@@ -1916,7 +2168,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/Newtonsoft.Json.dll"
       ],
-      "DebugActionIndex": 128
+      "DebugActionIndex": 146
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/System.Runtime.dll",
@@ -1928,7 +2180,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/System.Runtime.dll"
       ],
-      "DebugActionIndex": 129
+      "DebugActionIndex": 147
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/netstandard.dll",
@@ -1940,7 +2192,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/netstandard.dll"
       ],
-      "DebugActionIndex": 130
+      "DebugActionIndex": 148
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/Mono.Security.dll",
@@ -1952,7 +2204,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/Mono.Security.dll"
       ],
-      "DebugActionIndex": 131
+      "DebugActionIndex": 149
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/System.ComponentModel.Composition.dll",
@@ -1964,7 +2216,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/System.ComponentModel.Composition.dll"
       ],
-      "DebugActionIndex": 132
+      "DebugActionIndex": 150
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/System.Configuration.dll",
@@ -1976,7 +2228,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/System.Configuration.dll"
       ],
-      "DebugActionIndex": 133
+      "DebugActionIndex": 151
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/System.Core.dll",
@@ -1988,7 +2240,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/System.Core.dll"
       ],
-      "DebugActionIndex": 134
+      "DebugActionIndex": 152
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/System.Data.DataSetExtensions.dll",
@@ -2000,7 +2252,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/System.Data.DataSetExtensions.dll"
       ],
-      "DebugActionIndex": 135
+      "DebugActionIndex": 153
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/System.Data.dll",
@@ -2012,7 +2264,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/System.Data.dll"
       ],
-      "DebugActionIndex": 136
+      "DebugActionIndex": 154
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/System.Drawing.dll",
@@ -2024,7 +2276,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/System.Drawing.dll"
       ],
-      "DebugActionIndex": 137
+      "DebugActionIndex": 155
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/System.EnterpriseServices.dll",
@@ -2036,7 +2288,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/System.EnterpriseServices.dll"
       ],
-      "DebugActionIndex": 138
+      "DebugActionIndex": 156
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/System.IO.Compression.FileSystem.dll",
@@ -2048,7 +2300,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/System.IO.Compression.FileSystem.dll"
       ],
-      "DebugActionIndex": 139
+      "DebugActionIndex": 157
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/System.IO.Compression.dll",
@@ -2060,7 +2312,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/System.IO.Compression.dll"
       ],
-      "DebugActionIndex": 140
+      "DebugActionIndex": 158
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/System.Net.Http.dll",
@@ -2072,7 +2324,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/System.Net.Http.dll"
       ],
-      "DebugActionIndex": 141
+      "DebugActionIndex": 159
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/System.Numerics.dll",
@@ -2084,7 +2336,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/System.Numerics.dll"
       ],
-      "DebugActionIndex": 142
+      "DebugActionIndex": 160
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/System.Runtime.Serialization.dll",
@@ -2096,7 +2348,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/System.Runtime.Serialization.dll"
       ],
-      "DebugActionIndex": 143
+      "DebugActionIndex": 161
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/System.Security.dll",
@@ -2108,7 +2360,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/System.Security.dll"
       ],
-      "DebugActionIndex": 144
+      "DebugActionIndex": 162
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/System.ServiceModel.Internals.dll",
@@ -2120,7 +2372,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/System.ServiceModel.Internals.dll"
       ],
-      "DebugActionIndex": 145
+      "DebugActionIndex": 163
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/System.Transactions.dll",
@@ -2132,7 +2384,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/System.Transactions.dll"
       ],
-      "DebugActionIndex": 146
+      "DebugActionIndex": 164
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/System.Xml.Linq.dll",
@@ -2144,7 +2396,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/System.Xml.Linq.dll"
       ],
-      "DebugActionIndex": 147
+      "DebugActionIndex": 165
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/System.Xml.dll",
@@ -2156,7 +2408,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/System.Xml.dll"
       ],
-      "DebugActionIndex": 148
+      "DebugActionIndex": 166
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/System.dll",
@@ -2168,7 +2420,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/System.dll"
       ],
-      "DebugActionIndex": 149
+      "DebugActionIndex": 167
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Managed/mscorlib.dll",
@@ -2180,14 +2432,14 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Managed/mscorlib.dll"
       ],
-      "DebugActionIndex": 150
+      "DebugActionIndex": 168
     },
     {
       "Annotation": "GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker",
       "DisplayName": "Running Burst Compiler",
       "ActionType": "RunRPCCommand",
-      "PayloadOffset": 20276,
-      "PayloadLength": 19072,
+      "PayloadOffset": 22382,
+      "PayloadLength": 21118,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Da",
       "Action": "GenerateNativePluginsForAssemblies",
       "Inputs": [
@@ -2260,7 +2512,12 @@
         "C:/Program Files/Unity/Hub/Editor/2022.2.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.2.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll",
+        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/UnityEngine.Purchasing.AppleMacosStub.dll",
+        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/UnityEngine.Purchasing.Stores.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll",
+        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.Postprocessing.Runtime.dll",
+        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/UnityEngine.Purchasing.AppleStub.dll",
+        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.Analytics.DataPrivacy.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Environments.Internal.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.Services.Multiplay.dll",
@@ -2271,26 +2528,38 @@
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Scheduler.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Environments.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Configuration.dll",
+        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/UnityEngine.Purchasing.SecurityCore.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll",
+        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/UnityEngine.Purchasing.WinRTStub.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.Collections.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.Netcode.Runtime.dll",
+        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/UnityEngine.Purchasing.Codeless.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Analytics.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.Services.Wire.Internal.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.Services.Multiplay.Wire.Internal.dll",
+        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/UnityEngine.Purchasing.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
+        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/UnityEngine.Purchasing.AppleCore.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll",
+        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll",
+        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/UnityEngine.Purchasing.WinRTCore.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.Burst.dll",
+        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/UnityEngine.Purchasing.SecurityStub.dll",
+        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/UnityEngine.Advertisements.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Internal.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Device.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Threading.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll",
-        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll",
+        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/UnityEngine.SpatialTracking.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Telemetry.dll",
+        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.Services.Multiplay.Sqp.dll",
+        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Purchasing.Common.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.InputSystem.dll",
+        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.Services.Analytics.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.Services.Authentication.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.Services.Matchmaker.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.Mathematics.dll",
@@ -2298,10 +2567,10 @@
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Registration.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Cinemachine.dll",
+        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/PackageCache/com.unity.services.wire@1.1.4/Plugins/websocket-sharp.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/PackageCache/com.unity.collections@1.2.4/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/PackageCache/com.unity.burst@1.8.2/Unity.Burst.Unsafe.dll",
-        "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/PackageCache/com.unity.services.wire@1.1.4/Plugins/websocket-sharp.dll",
         "D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/AOT/Newtonsoft.Json.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.2.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Runtime.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.2.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/netstandard.dll",
@@ -2358,7 +2627,7 @@
           "Recurse": 1
         }
       ],
-      "DebugActionIndex": 151
+      "DebugActionIndex": 169
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Plugins/x86_64/lib_burst_generated.dll",
@@ -2371,22 +2640,22 @@
         "Builds/Tanks-Netcode_Data/Plugins/x86_64/lib_burst_generated.dll"
       ],
       "ToBuildDependencies": [
-        151
+        169
       ],
-      "DebugActionIndex": 152
+      "DebugActionIndex": 170
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info",
       "DisplayName": "Writing app.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 39437,
-      "PayloadLength": 28,
-      "PayloadDebugContentSnippet": "DefaultCompany\nTanks-Netcode",
+      "PayloadOffset": 43589,
+      "PayloadLength": 20,
+      "PayloadDebugContentSnippet": "BigHat\nTanks-Netcode",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info"
       ],
-      "DebugActionIndex": 153
+      "DebugActionIndex": 171
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/app.info",
@@ -2399,9 +2668,9 @@
         "Builds/Tanks-Netcode_Data/app.info"
       ],
       "ToBuildDependencies": [
-        153
+        171
       ],
-      "DebugActionIndex": 154
+      "DebugActionIndex": 172
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode_Data/Resources/unity default resources",
@@ -2413,7 +2682,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode_Data/Resources/unity default resources"
       ],
-      "DebugActionIndex": 155
+      "DebugActionIndex": 173
     },
     {
       "Annotation": "CopyFiles Builds/Tanks-Netcode.exe",
@@ -2425,7 +2694,7 @@
       "Outputs": [
         "Builds/Tanks-Netcode.exe"
       ],
-      "DebugActionIndex": 156
+      "DebugActionIndex": 174
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll",
@@ -2437,7 +2706,7 @@
       "Outputs": [
         "Builds/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll"
       ],
-      "DebugActionIndex": 157
+      "DebugActionIndex": 175
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll",
@@ -2449,7 +2718,7 @@
       "Outputs": [
         "Builds/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll"
       ],
-      "DebugActionIndex": 158
+      "DebugActionIndex": 176
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser",
@@ -2461,7 +2730,7 @@
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 159
+      "DebugActionIndex": 177
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx",
@@ -2473,7 +2742,7 @@
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 160
+      "DebugActionIndex": 178
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/machine.config",
@@ -2485,7 +2754,7 @@
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/2.0/machine.config"
       ],
-      "DebugActionIndex": 161
+      "DebugActionIndex": 179
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/settings.map",
@@ -2497,7 +2766,7 @@
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/2.0/settings.map"
       ],
-      "DebugActionIndex": 162
+      "DebugActionIndex": 180
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/web.config",
@@ -2509,7 +2778,7 @@
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/2.0/web.config"
       ],
-      "DebugActionIndex": 163
+      "DebugActionIndex": 181
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser",
@@ -2521,7 +2790,7 @@
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 164
+      "DebugActionIndex": 182
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx",
@@ -2533,7 +2802,7 @@
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 165
+      "DebugActionIndex": 183
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/machine.config",
@@ -2545,7 +2814,7 @@
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/4.0/machine.config"
       ],
-      "DebugActionIndex": 166
+      "DebugActionIndex": 184
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/settings.map",
@@ -2557,7 +2826,7 @@
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/4.0/settings.map"
       ],
-      "DebugActionIndex": 167
+      "DebugActionIndex": 185
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/web.config",
@@ -2569,7 +2838,7 @@
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/4.0/web.config"
       ],
-      "DebugActionIndex": 168
+      "DebugActionIndex": 186
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser",
@@ -2581,7 +2850,7 @@
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 169
+      "DebugActionIndex": 187
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx",
@@ -2593,7 +2862,7 @@
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 170
+      "DebugActionIndex": 188
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/machine.config",
@@ -2605,7 +2874,7 @@
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/4.5/machine.config"
       ],
-      "DebugActionIndex": 171
+      "DebugActionIndex": 189
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/settings.map",
@@ -2617,7 +2886,7 @@
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/4.5/settings.map"
       ],
-      "DebugActionIndex": 172
+      "DebugActionIndex": 190
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/web.config",
@@ -2629,7 +2898,7 @@
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/4.5/web.config"
       ],
-      "DebugActionIndex": 173
+      "DebugActionIndex": 191
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/browscap.ini",
@@ -2641,7 +2910,7 @@
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/browscap.ini"
       ],
-      "DebugActionIndex": 174
+      "DebugActionIndex": 192
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/config",
@@ -2653,7 +2922,7 @@
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/config"
       ],
-      "DebugActionIndex": 175
+      "DebugActionIndex": 193
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/mconfig/config.xml",
@@ -2665,7 +2934,7 @@
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/mconfig/config.xml"
       ],
-      "DebugActionIndex": 176
+      "DebugActionIndex": 194
     },
     {
       "Annotation": "CopyFiles Builds/UnityCrashHandler64.exe",
@@ -2677,7 +2946,7 @@
       "Outputs": [
         "Builds/UnityCrashHandler64.exe"
       ],
-      "DebugActionIndex": 177
+      "DebugActionIndex": 195
     },
     {
       "Annotation": "CopyFiles Builds/UnityPlayer.dll",
@@ -2689,7 +2958,7 @@
       "Outputs": [
         "Builds/UnityPlayer.dll"
       ],
-      "DebugActionIndex": 178
+      "DebugActionIndex": 196
     },
     {
       "Annotation": "Player",
@@ -2709,7 +2978,7 @@
         10,
         11,
         12,
-        15,
+        13,
         16,
         17,
         18,
@@ -2845,7 +3114,9 @@
         148,
         149,
         150,
+        151,
         152,
+        153,
         154,
         155,
         156,
@@ -2861,19 +3132,35 @@
         166,
         167,
         168,
-        169,
         170,
-        171,
         172,
         173,
         174,
         175,
         176,
         177,
-        178
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196
       ],
       "OverwriteOutputs": false,
-      "DebugActionIndex": 179
+      "DebugActionIndex": 197
     }
   ],
   "FileSignatures": [
@@ -3078,7 +3365,7 @@
   ],
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "Player": 179
+          "Player": 197
         }
 ,  "DefaultNodes": [
     0
