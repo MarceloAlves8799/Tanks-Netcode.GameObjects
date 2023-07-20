@@ -118,7 +118,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 192
+  controlID: 99
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 193
+  controlID: 100
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 86
+  controlID: 19
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -246,7 +246,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 168
+  controlID: 101
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -293,8 +293,8 @@ MonoBehaviour:
     y: 384
     width: 894
     height: 555
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -320,8 +320,8 @@ MonoBehaviour:
     y: 0
     width: 579
     height: 939
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -392,7 +392,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 25}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-scene-view-toolbar
@@ -687,7 +687,7 @@ MonoBehaviour:
       size: {x: 0, y: 0}
       sizeOverriden: 0
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
-  m_Gizmos: 0
+  m_Gizmos: 1
   m_OverrideSceneCullingMask: 6917529027641081856
   m_SceneIsLit: 1
   m_SceneLighting: 1
@@ -696,9 +696,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.4714543, y: 1.2175221, z: 4.445496}
+    m_Target: {x: -2.6730804, y: 11.551874, z: -0.5707822}
     speed: 2
-    m_Value: {x: 1.4714543, y: 1.2175221, z: 4.445496}
+    m_Value: {x: -2.6730804, y: 11.551874, z: -0.5707822}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -744,13 +744,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.10201727, y: -0.04713724, z: 0.0048417463, w: -0.9936581}
+    m_Target: {x: -0.11654894, y: -0.5907887, z: 0.08675911, w: -0.7936508}
     speed: 2
-    m_Value: {x: -0.10202394, y: -0.04564649, z: 0.004688693, w: -0.9937231}
+    m_Value: {x: -0.11654756, y: -0.59078175, z: 0.08675809, w: -0.79364145}
   m_Size:
-    m_Target: 6.651611
+    m_Target: 10.372108
     speed: 2
-    m_Value: 277.0365
+    m_Value: 10.372108
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -814,21 +814,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 7cc9fdff30cafdff06d2fdff94dcfdff48ddfdff40e5fdffe634ffffa4fafffff4ffffffe67b0000fe7b0000107c0000247c0000
+      m_ExpandedIDs: 9ce9eaffa4e9eaffb4e9eaff700cedff780cedff880cedff6cedeeff74edeeff84edeeff5e7af5ff667af5ff767af5ff4887f6ff5087f6ff6087f6ff9ea4feffcefaffff207c0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: TankTurret
+        m_OriginalName: TankTurret
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: -1118896
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 8}
       m_SearchString: 
@@ -885,23 +885,23 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs
+    - Assets/Inputs
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Prefabs
+  - Assets/Inputs
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\Unity\Tanks-Netcode.GameObjects\Tanks-Netcode
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 68840000
-    m_LastClickedID: 33896
-    m_ExpandedIDs: 000000005c8400006e84000000ca9a3b
+    m_SelectedIDs: 96840000
+    m_LastClickedID: 33942
+    m_ExpandedIDs: 000000008e8400009e840000ba84000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -929,7 +929,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000005c840000
+    m_ExpandedIDs: 000000008e840000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -960,15 +960,15 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: c6230000663f010076800000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: ClientNetworkTransform
-      m_OriginalName: ClientNetworkTransform
+      m_Name: PlayerAiming
+      m_OriginalName: PlayerAiming
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 37754
+      m_UserData: 42116
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -1153,7 +1153,7 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -14326
+  m_LastSelectedObjectID: 31780
 --- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52

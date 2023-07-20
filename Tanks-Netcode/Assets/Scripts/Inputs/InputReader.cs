@@ -8,12 +8,12 @@ namespace Tanks
     [CreateAssetMenu(fileName = "New Input Reader", menuName = "Inputs/Input Reader")]
     public class InputReader : ScriptableObject, IPlayerActions
     {
+        private Controls controls;
+
         public event Action<bool> PrimaryFireEvent;
         public event Action<Vector2> MoveEvent;
 
-        private Controls controls;
-
-
+        public Vector2 AimPosition { get; private set; }
 
 
         void OnEnable()
@@ -43,6 +43,11 @@ namespace Tanks
             {
                 PrimaryFireEvent?.Invoke(false);
             }
+        }
+
+        public void OnAim(InputAction.CallbackContext context)
+        {
+            AimPosition = context.ReadValue<Vector2>();
         }
     }
 }
