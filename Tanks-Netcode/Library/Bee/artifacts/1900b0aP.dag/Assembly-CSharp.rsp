@@ -345,11 +345,16 @@
 -r:"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.2.4f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.2.4f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+"Assets/Scripts/Core/Player/PlayerAiming.cs"
+"Assets/Scripts/Core/Player/PlayerMovement.cs"
+"Assets/Scripts/Core/Player/PlayerShooting.cs"
 "Assets/Scripts/Inputs/Controls.cs"
 "Assets/Scripts/Inputs/InputReader.cs"
 "Assets/Scripts/Inputs/InputTest.cs"
 "Assets/Scripts/Networking/ClientNetworkTransform.cs"
 "Assets/Scripts/Networking/ConnectionButtons.cs"
+"Assets/Scripts/Utils/DestroySelfOnContact.cs"
+"Assets/Scripts/Utils/Lifetime.cs"
 -langversion:9.0
 
 /deterministic

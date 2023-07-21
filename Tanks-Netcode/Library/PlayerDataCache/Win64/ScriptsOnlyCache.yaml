@@ -1,10 +1,14 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - InputTest
     - Tanks.ClientNetworkTransform
     - Tanks.ConnectionButtons
+    - Tanks.DestroySelfOnContact
     - Tanks.InputReader
+    - Tanks.Lifetime
+    - Tanks.PlayerAiming
+    - Tanks.PlayerMovement
+    - Tanks.PlayerShooting
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridBrush
     - UnityEditor.Tilemaps.GridBrushEditor
@@ -64,6 +68,7 @@ ScriptsOnlyBuild:
     - UnityEditor.Rendering.Universal.UniversalProjectSettings
     Unity.RenderPipelines.Universal.Runtime.dll:
     - UnityEngine.Rendering.Universal.PostProcessData
+    - UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
     - UnityEngine.Rendering.Universal.UniversalAdditionalLightData
     - UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset
     - UnityEngine.Rendering.Universal.UniversalRenderPipelineGlobalSettings
@@ -128,6 +133,7 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.Universal.PostProcessData/TextureResources
     - UnityEngine.Rendering.Universal.ScriptableRendererData/DebugShaderResources
     - UnityEngine.Rendering.Universal.StencilStateData
+    - UnityEngine.Rendering.Universal.TemporalAA/Settings
     - UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset/TextureResources
     - UnityEngine.Rendering.Universal.UniversalRendererData/ShaderResources
     - UnityEngine.Rendering.Universal.XRSystemData/ShaderResources
@@ -279,119 +285,129 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2008}
     - Class: 114
-      Script: {instanceID: 2444}
+      Script: {instanceID: 2252}
     - Class: 114
-      Script: {instanceID: 2720}
+      Script: {instanceID: 2446}
     - Class: 114
-      Script: {instanceID: 3186}
+      Script: {instanceID: 2722}
     - Class: 114
-      Script: {instanceID: 3614}
+      Script: {instanceID: 3188}
     - Class: 114
-      Script: {instanceID: 3754}
+      Script: {instanceID: 3616}
     - Class: 114
-      Script: {instanceID: 3848}
+      Script: {instanceID: 3756}
     - Class: 114
-      Script: {instanceID: 4028}
+      Script: {instanceID: 3850}
     - Class: 114
-      Script: {instanceID: 4714}
+      Script: {instanceID: 4030}
     - Class: 114
-      Script: {instanceID: 5646}
+      Script: {instanceID: 4716}
     - Class: 114
-      Script: {instanceID: 5774}
+      Script: {instanceID: 5424}
     - Class: 114
-      Script: {instanceID: 5852}
+      Script: {instanceID: 5650}
     - Class: 114
-      Script: {instanceID: 6054}
+      Script: {instanceID: 5778}
     - Class: 114
-      Script: {instanceID: 6076}
+      Script: {instanceID: 5856}
     - Class: 114
-      Script: {instanceID: 6650}
+      Script: {instanceID: 6058}
     - Class: 114
-      Script: {instanceID: 6656}
+      Script: {instanceID: 6080}
     - Class: 114
-      Script: {instanceID: 6732}
+      Script: {instanceID: 6654}
     - Class: 114
-      Script: {instanceID: 6860}
+      Script: {instanceID: 6660}
     - Class: 114
-      Script: {instanceID: 6940}
+      Script: {instanceID: 6736}
     - Class: 114
-      Script: {instanceID: 7376}
+      Script: {instanceID: 6864}
     - Class: 114
-      Script: {instanceID: 7386}
+      Script: {instanceID: 6944}
     - Class: 114
-      Script: {instanceID: 7726}
+      Script: {instanceID: 7380}
     - Class: 114
-      Script: {instanceID: 8060}
+      Script: {instanceID: 7390}
     - Class: 114
-      Script: {instanceID: 8462}
+      Script: {instanceID: 7730}
     - Class: 114
-      Script: {instanceID: 9650}
+      Script: {instanceID: 7944}
     - Class: 114
-      Script: {instanceID: 9706}
+      Script: {instanceID: 8066}
     - Class: 114
-      Script: {instanceID: 9724}
+      Script: {instanceID: 8468}
     - Class: 114
-      Script: {instanceID: 9906}
+      Script: {instanceID: 9658}
     - Class: 114
-      Script: {instanceID: 10138}
+      Script: {instanceID: 9714}
     - Class: 114
-      Script: {instanceID: 10910}
+      Script: {instanceID: 9732}
     - Class: 114
-      Script: {instanceID: 11194}
+      Script: {instanceID: 9914}
     - Class: 114
-      Script: {instanceID: 11262}
+      Script: {instanceID: 10146}
     - Class: 114
-      Script: {instanceID: 11402}
+      Script: {instanceID: 10794}
     - Class: 114
-      Script: {instanceID: 11578}
+      Script: {instanceID: 10798}
     - Class: 114
-      Script: {instanceID: 11712}
+      Script: {instanceID: 10922}
     - Class: 114
-      Script: {instanceID: 12018}
+      Script: {instanceID: 11206}
     - Class: 114
-      Script: {instanceID: 12078}
+      Script: {instanceID: 11274}
     - Class: 114
-      Script: {instanceID: 12120}
+      Script: {instanceID: 11414}
     - Class: 114
-      Script: {instanceID: 12862}
+      Script: {instanceID: 11590}
     - Class: 114
-      Script: {instanceID: 12884}
+      Script: {instanceID: 11724}
     - Class: 114
-      Script: {instanceID: 12944}
+      Script: {instanceID: 12030}
     - Class: 114
-      Script: {instanceID: 13174}
+      Script: {instanceID: 12090}
     - Class: 114
-      Script: {instanceID: 13484}
+      Script: {instanceID: 12132}
     - Class: 114
-      Script: {instanceID: 13594}
+      Script: {instanceID: 12662}
     - Class: 114
-      Script: {instanceID: 13862}
+      Script: {instanceID: 12876}
     - Class: 114
-      Script: {instanceID: 14022}
+      Script: {instanceID: 12898}
     - Class: 114
-      Script: {instanceID: 14130}
+      Script: {instanceID: 12958}
     - Class: 114
-      Script: {instanceID: 14232}
+      Script: {instanceID: 13188}
     - Class: 114
-      Script: {instanceID: 14380}
+      Script: {instanceID: 13498}
     - Class: 114
-      Script: {instanceID: 14552}
+      Script: {instanceID: 13608}
     - Class: 114
-      Script: {instanceID: 14882}
+      Script: {instanceID: 13876}
     - Class: 114
-      Script: {instanceID: 15270}
+      Script: {instanceID: 14036}
     - Class: 114
-      Script: {instanceID: 15292}
+      Script: {instanceID: 14144}
     - Class: 114
-      Script: {instanceID: 15864}
+      Script: {instanceID: 14246}
     - Class: 114
-      Script: {instanceID: 16194}
+      Script: {instanceID: 14394}
     - Class: 114
-      Script: {instanceID: 16198}
+      Script: {instanceID: 14566}
     - Class: 114
-      Script: {instanceID: 35842}
+      Script: {instanceID: 14896}
     - Class: 114
-      Script: {instanceID: 37754}
+      Script: {instanceID: 15284}
+    - Class: 114
+      Script: {instanceID: 15306}
+    - Class: 114
+      Script: {instanceID: 15878}
+    - Class: 114
+      Script: {instanceID: 36512}
+    - Class: 114
+      Script: {instanceID: 36544}
+    - Class: 114
+      Script: {instanceID: 38138}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -519,6 +535,12 @@ ScriptsOnlyBuild:
     assemblyName: Cinemachine
     namespaceName: 
     className: CinemachineCameraOffset
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: Tanks
+    className: ConnectionButtons
   - hash:
       serializedVersion: 2
       Hash: dc90caa97d497baeae83b781ee77eed5
@@ -923,6 +945,12 @@ ScriptsOnlyBuild:
     className: PostProcessVolume
   - hash:
       serializedVersion: 2
+      Hash: 969c666ba3bb41e51225db44e4f8da1d
+    assemblyName: Assembly-CSharp
+    namespaceName: Tanks
+    className: PlayerMovement
+  - hash:
+      serializedVersion: 2
       Hash: b1705171cbdd1470c9b595afff9ef15e
     assemblyName: Cinemachine
     namespaceName: Cinemachine
@@ -1317,6 +1345,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
     className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: d0cc8cd6e3c7d88e7b0523eeee921715
+    assemblyName: Assembly-CSharp
+    namespaceName: Tanks
+    className: ClientNetworkTransform
   - hash:
       serializedVersion: 2
       Hash: 41edf1f7828466a73580cae5e7be9b87
@@ -1727,10 +1761,22 @@ ScriptsOnlyBuild:
     className: ToggleGroup
   - hash:
       serializedVersion: 2
+      Hash: d4a3d7b8cdab56395173f3e436dd23f4
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: InputTest
+  - hash:
+      serializedVersion: 2
       Hash: 37b191fab268ddbf80fe4515fb274a73
     assemblyName: Unity.RenderPipelines.Universal.Runtime
     namespaceName: UnityEngine.Rendering.Universal
     className: UniversalAdditionalCameraData
+  - hash:
+      serializedVersion: 2
+      Hash: fb48bb33974a2f53ea8a5a4c57cde817
+    assemblyName: Assembly-CSharp
+    namespaceName: Tanks
+    className: PlayerAiming
   - hash:
       serializedVersion: 2
       Hash: 843836ad56ce5ef50c83c4db3bf552d1
@@ -2049,6 +2095,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.XR.LegacyInputHelpers
     namespaceName: UnityEditor.XR.LegacyInputHelpers
     className: CameraOffset
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: Tanks
+    className: InputReader
   - hash:
       serializedVersion: 2
       Hash: 0cadf67970140b3a7997770202c43c70
@@ -2489,28 +2541,22 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
+      Hash: 933000331b6d03c535330b9de0a7cc9e
     assemblyName: Assembly-CSharp
     namespaceName: Tanks
-    className: ConnectionButtons
+    className: Lifetime
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Assembly-CSharp
     namespaceName: Tanks
-    className: InputReader
+    className: DestroySelfOnContact
   - hash:
       serializedVersion: 2
-      Hash: d4a3d7b8cdab56395173f3e436dd23f4
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: InputTest
-  - hash:
-      serializedVersion: 2
-      Hash: d0cc8cd6e3c7d88e7b0523eeee921715
+      Hash: ad6a01a02cab51eb5782e3f2bae1e0d1
     assemblyName: Assembly-CSharp
     namespaceName: Tanks
-    className: ClientNetworkTransform
+    className: PlayerShooting
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
