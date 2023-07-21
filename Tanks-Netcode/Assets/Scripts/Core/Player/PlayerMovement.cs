@@ -12,7 +12,7 @@ namespace Tanks
 
         [Header("Movement")]
         [SerializeField] private float movementSpeed;
-        private Vector2 previousMovementInput;
+        private Vector3 previousMovementInput;
 
         [Header("Rotation")]
         [SerializeField] private float turningSpeed;
@@ -52,19 +52,22 @@ namespace Tanks
         {
             if (!IsOwner) return;
 
-            playerRb.velocity = tankBodyTransform.forward * previousMovementInput.y * movementSpeed;
+            playerRb.velocity = previousMovementInput * movementSpeed;
         }
 
         private void HandleMovement(Vector2 movementInput)
         {
-            previousMovementInput = movementInput;
+            previousMovementInput.Set(movementInput.x, 0, movementInput.y);
         }
 
         private void HandleRotation()
         {
-            float yRotation = previousMovementInput.x * turningSpeed * Time.deltaTime;
-            tankBodyTransform.Rotate(0, yRotation, 0);
+            if(previousMovementInput == Vector3.zero) return;
+
+            Quaternion yDirection = Quaternion.LookRotation(previousMovementInput);
+            tankBodyTransform.rotation = Quaternion.Slerp(tankBodyTransform.rotation, yDirection, turningSpeed * Time.deltaTime);
         }
+
 
     }
 }

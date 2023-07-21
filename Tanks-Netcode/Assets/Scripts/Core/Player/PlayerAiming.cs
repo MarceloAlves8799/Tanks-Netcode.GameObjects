@@ -1,5 +1,7 @@
 using Unity.Netcode;
 using UnityEngine;
+using UnityEngine.InputSystem;
+using UnityEngine.UIElements;
 
 namespace Tanks
 {
@@ -26,6 +28,20 @@ namespace Tanks
 
         private void HandleAim()
         {
+            if(Gamepad.current == null)
+            {
+                HandleAimMouse();
+            }
+
+            else
+            {
+                Debug.Log("PS4 Connected");
+                HandleAimGamepad();
+            }
+        }    
+
+        private void HandleAimMouse()
+        {
             Ray aimRay = mainCamera.ScreenPointToRay(inputReader.AimPosition);
             Plane terrainPlane = new Plane(Vector3.up, Vector3.zero);
             float rayDistance;
@@ -40,8 +56,17 @@ namespace Tanks
 
             Quaternion directionToRotate = Quaternion.LookRotation(aimDirection);
             tankTurretTransform.rotation = Quaternion.Slerp(tankTurretTransform.rotation, directionToRotate, Time.deltaTime * aimTurningSpeed);
+        }
 
+        private void HandleAimGamepad()
+        {
+            Vector3 rotationDirection = new Vector3(inputReader.AimPosition.x, 0f, inputReader.AimPosition.y);
 
-        }    
+            if(rotationDirection == Vector3.zero) return;
+
+            float angle = Mathf.Atan2(rotationDirection.x, rotationDirection.z) * Mathf.Rad2Deg;
+            tankTurretTransform.rotation = Quaternion.Euler(0f, angle, 0f);
+
+        }
     }
 }
