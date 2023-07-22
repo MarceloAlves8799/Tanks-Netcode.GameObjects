@@ -4,6 +4,8 @@ ScriptsOnlyBuild:
     - Tanks.ClientNetworkTransform
     - Tanks.ConnectionButtons
     - Tanks.DestroySelfOnContact
+    - Tanks.Health
+    - Tanks.HealthDisplay
     - Tanks.InputReader
     - Tanks.Lifetime
     - Tanks.PlayerAiming
@@ -124,6 +126,7 @@ ScriptsOnlyBuild:
     - UnityEngine.InputSystem.InputControlScheme/DeviceRequirement
     Unity.Netcode.Runtime:
     - Unity.Netcode.NetworkConfig
+    - Unity.Netcode.NetworkVariable`1[System.Int32]
     - Unity.Netcode.Transports.UTP.UnityTransport/ConnectionAddressData
     - Unity.Netcode.Transports.UTP.UnityTransport/SimulatorParameters
     Unity.RenderPipelines.Core.Runtime:
@@ -271,143 +274,147 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1828}
-    - Class: 114
-      Script: {instanceID: 1830}
-    - Class: 114
       Script: {instanceID: 1832}
     - Class: 114
       Script: {instanceID: 1834}
     - Class: 114
       Script: {instanceID: 1836}
     - Class: 114
-      Script: {instanceID: 1844}
+      Script: {instanceID: 1838}
     - Class: 114
-      Script: {instanceID: 2008}
+      Script: {instanceID: 1840}
     - Class: 114
-      Script: {instanceID: 2252}
+      Script: {instanceID: 1848}
     - Class: 114
-      Script: {instanceID: 2446}
+      Script: {instanceID: 2012}
     - Class: 114
-      Script: {instanceID: 2722}
+      Script: {instanceID: 2256}
     - Class: 114
-      Script: {instanceID: 3188}
+      Script: {instanceID: 2450}
     - Class: 114
-      Script: {instanceID: 3616}
+      Script: {instanceID: 2726}
     - Class: 114
-      Script: {instanceID: 3756}
+      Script: {instanceID: 3192}
     - Class: 114
-      Script: {instanceID: 3850}
+      Script: {instanceID: 3620}
     - Class: 114
-      Script: {instanceID: 4030}
+      Script: {instanceID: 3760}
     - Class: 114
-      Script: {instanceID: 4716}
+      Script: {instanceID: 3854}
     - Class: 114
-      Script: {instanceID: 5424}
+      Script: {instanceID: 4034}
     - Class: 114
-      Script: {instanceID: 5650}
+      Script: {instanceID: 4720}
     - Class: 114
-      Script: {instanceID: 5778}
+      Script: {instanceID: 5428}
     - Class: 114
-      Script: {instanceID: 5856}
+      Script: {instanceID: 5654}
     - Class: 114
-      Script: {instanceID: 6058}
+      Script: {instanceID: 5782}
     - Class: 114
-      Script: {instanceID: 6080}
+      Script: {instanceID: 5860}
     - Class: 114
-      Script: {instanceID: 6654}
+      Script: {instanceID: 6062}
     - Class: 114
-      Script: {instanceID: 6660}
+      Script: {instanceID: 6084}
     - Class: 114
-      Script: {instanceID: 6736}
+      Script: {instanceID: 6658}
     - Class: 114
-      Script: {instanceID: 6864}
+      Script: {instanceID: 6664}
     - Class: 114
-      Script: {instanceID: 6944}
+      Script: {instanceID: 6740}
     - Class: 114
-      Script: {instanceID: 7380}
+      Script: {instanceID: 6868}
     - Class: 114
-      Script: {instanceID: 7390}
+      Script: {instanceID: 6948}
     - Class: 114
-      Script: {instanceID: 7730}
+      Script: {instanceID: 7384}
     - Class: 114
-      Script: {instanceID: 7944}
+      Script: {instanceID: 7394}
     - Class: 114
-      Script: {instanceID: 8066}
+      Script: {instanceID: 7422}
     - Class: 114
-      Script: {instanceID: 8468}
+      Script: {instanceID: 7736}
     - Class: 114
-      Script: {instanceID: 9658}
+      Script: {instanceID: 7950}
     - Class: 114
-      Script: {instanceID: 9714}
+      Script: {instanceID: 8072}
     - Class: 114
-      Script: {instanceID: 9732}
+      Script: {instanceID: 8474}
     - Class: 114
-      Script: {instanceID: 9914}
+      Script: {instanceID: 9664}
     - Class: 114
-      Script: {instanceID: 10146}
+      Script: {instanceID: 9720}
     - Class: 114
-      Script: {instanceID: 10794}
+      Script: {instanceID: 9738}
     - Class: 114
-      Script: {instanceID: 10798}
+      Script: {instanceID: 9920}
     - Class: 114
-      Script: {instanceID: 10922}
+      Script: {instanceID: 10152}
     - Class: 114
-      Script: {instanceID: 11206}
+      Script: {instanceID: 10800}
     - Class: 114
-      Script: {instanceID: 11274}
+      Script: {instanceID: 10804}
     - Class: 114
-      Script: {instanceID: 11414}
+      Script: {instanceID: 10928}
     - Class: 114
-      Script: {instanceID: 11590}
+      Script: {instanceID: 11212}
     - Class: 114
-      Script: {instanceID: 11724}
+      Script: {instanceID: 11280}
     - Class: 114
-      Script: {instanceID: 12030}
+      Script: {instanceID: 11420}
     - Class: 114
-      Script: {instanceID: 12090}
+      Script: {instanceID: 11432}
     - Class: 114
-      Script: {instanceID: 12132}
+      Script: {instanceID: 11598}
     - Class: 114
-      Script: {instanceID: 12662}
+      Script: {instanceID: 11732}
     - Class: 114
-      Script: {instanceID: 12876}
+      Script: {instanceID: 12038}
     - Class: 114
-      Script: {instanceID: 12898}
+      Script: {instanceID: 12098}
     - Class: 114
-      Script: {instanceID: 12958}
+      Script: {instanceID: 12140}
     - Class: 114
-      Script: {instanceID: 13188}
+      Script: {instanceID: 12670}
     - Class: 114
-      Script: {instanceID: 13498}
+      Script: {instanceID: 12884}
     - Class: 114
-      Script: {instanceID: 13608}
+      Script: {instanceID: 12906}
     - Class: 114
-      Script: {instanceID: 13876}
+      Script: {instanceID: 12966}
     - Class: 114
-      Script: {instanceID: 14036}
+      Script: {instanceID: 13196}
     - Class: 114
-      Script: {instanceID: 14144}
+      Script: {instanceID: 13506}
     - Class: 114
-      Script: {instanceID: 14246}
+      Script: {instanceID: 13616}
     - Class: 114
-      Script: {instanceID: 14394}
+      Script: {instanceID: 13884}
     - Class: 114
-      Script: {instanceID: 14566}
+      Script: {instanceID: 14044}
     - Class: 114
-      Script: {instanceID: 14896}
+      Script: {instanceID: 14152}
     - Class: 114
-      Script: {instanceID: 15284}
+      Script: {instanceID: 14254}
     - Class: 114
-      Script: {instanceID: 15306}
+      Script: {instanceID: 14324}
     - Class: 114
-      Script: {instanceID: 15878}
+      Script: {instanceID: 14404}
     - Class: 114
-      Script: {instanceID: 36512}
+      Script: {instanceID: 14576}
     - Class: 114
-      Script: {instanceID: 36544}
+      Script: {instanceID: 14906}
     - Class: 114
-      Script: {instanceID: 38138}
+      Script: {instanceID: 15294}
+    - Class: 114
+      Script: {instanceID: 15316}
+    - Class: 114
+      Script: {instanceID: 15888}
+    - Class: 114
+      Script: {instanceID: 42698}
+    - Class: 114
+      Script: {instanceID: 44278}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1281,6 +1288,12 @@ ScriptsOnlyBuild:
     className: LensFlareDataSRP
   - hash:
       serializedVersion: 2
+      Hash: 933000331b6d03c535330b9de0a7cc9e
+    assemblyName: Assembly-CSharp
+    namespaceName: Tanks
+    className: Lifetime
+  - hash:
+      serializedVersion: 2
       Hash: 6790e6a34c21983b40cb4e09983b75be
     assemblyName: Unity.RenderPipelines.Core.Runtime
     namespaceName: UnityEngine.Rendering
@@ -1875,6 +1888,12 @@ ScriptsOnlyBuild:
     className: InputActionAsset
   - hash:
       serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: Tanks
+    className: DestroySelfOnContact
+  - hash:
+      serializedVersion: 2
       Hash: d7d9dc0c3b3db421af6fcfe95aad76cd
     assemblyName: Cinemachine
     namespaceName: Cinemachine
@@ -2313,6 +2332,12 @@ ScriptsOnlyBuild:
     className: PlayerInputEditor
   - hash:
       serializedVersion: 2
+      Hash: ad6a01a02cab51eb5782e3f2bae1e0d1
+    assemblyName: Assembly-CSharp
+    namespaceName: Tanks
+    className: PlayerShooting
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem.UI.Editor
@@ -2541,22 +2566,16 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 933000331b6d03c535330b9de0a7cc9e
+      Hash: 0369a85e5d5c7045836d5e3c271c8bf7
     assemblyName: Assembly-CSharp
     namespaceName: Tanks
-    className: Lifetime
+    className: Health
   - hash:
       serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
+      Hash: 218d859e367767fd6a9d9360968dfa4b
     assemblyName: Assembly-CSharp
     namespaceName: Tanks
-    className: DestroySelfOnContact
-  - hash:
-      serializedVersion: 2
-      Hash: ad6a01a02cab51eb5782e3f2bae1e0d1
-    assemblyName: Assembly-CSharp
-    namespaceName: Tanks
-    className: PlayerShooting
+    className: HealthDisplay
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity

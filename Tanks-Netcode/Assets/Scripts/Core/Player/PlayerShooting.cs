@@ -63,18 +63,23 @@ namespace Tanks
 
             projectileInstance.transform.forward = direction;
 
-            SpawnDummyProjectileClientRpc(spawnPos, direction);
+            if (projectileInstance.TryGetComponent<DealDamageOnContact>(out DealDamageOnContact dealDamage))
+            {
+                dealDamage.SetOwner(OwnerClientId);
+            }
 
             if (projectileInstance.TryGetComponent<Rigidbody>(out Rigidbody projectileRb))
             {
                 projectileRb.velocity = projectileRb.transform.forward * projectileSpeed;
             }
+
+            SpawnDummyProjectileClientRpc(spawnPos, direction);
         }
 
         [ClientRpc]
         private void SpawnDummyProjectileClientRpc(Vector3 spawnPos, Vector3 direction)
         {
-            if (!IsOwner) return;
+            if (IsOwner) return;
 
             SpawnDummyProjectile(spawnPos, direction);
         }
