@@ -1,8 +1,11 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - Tanks.BagCollectable
+    - Tanks.BulletCollectable
     - Tanks.ClientNetworkTransform
     - Tanks.ConnectionButtons
+    - Tanks.DealDamageOnContact
     - Tanks.DestroySelfOnContact
     - Tanks.Health
     - Tanks.HealthDisplay
@@ -29,6 +32,8 @@ ScriptsOnlyBuild:
     - UnityEngine.InputSystem.InputSystemObject
     - UnityEngine.InputSystem.RemoteInputPlayerConnection
     - UnityEngine.InputSystem.UI.InputSystemUIInputModule
+    Unity.Netcode.Components.dll:
+    - Unity.Netcode.Components.NetworkTransform
     Unity.Netcode.Runtime.dll:
     - Unity.Netcode.NetworkManager
     - Unity.Netcode.NetworkObject
@@ -274,73 +279,79 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 1828}
+    - Class: 114
+      Script: {instanceID: 1830}
+    - Class: 114
       Script: {instanceID: 1832}
     - Class: 114
       Script: {instanceID: 1834}
     - Class: 114
       Script: {instanceID: 1836}
     - Class: 114
-      Script: {instanceID: 1838}
+      Script: {instanceID: 1844}
     - Class: 114
-      Script: {instanceID: 1840}
+      Script: {instanceID: 2008}
     - Class: 114
-      Script: {instanceID: 1848}
+      Script: {instanceID: 2252}
     - Class: 114
-      Script: {instanceID: 2012}
+      Script: {instanceID: 2446}
     - Class: 114
-      Script: {instanceID: 2256}
+      Script: {instanceID: 2722}
     - Class: 114
-      Script: {instanceID: 2450}
+      Script: {instanceID: 3188}
     - Class: 114
-      Script: {instanceID: 2726}
+      Script: {instanceID: 3616}
     - Class: 114
-      Script: {instanceID: 3192}
+      Script: {instanceID: 3756}
     - Class: 114
-      Script: {instanceID: 3620}
+      Script: {instanceID: 3850}
     - Class: 114
-      Script: {instanceID: 3760}
+      Script: {instanceID: 4030}
     - Class: 114
-      Script: {instanceID: 3854}
+      Script: {instanceID: 4716}
     - Class: 114
-      Script: {instanceID: 4034}
+      Script: {instanceID: 5424}
     - Class: 114
-      Script: {instanceID: 4720}
+      Script: {instanceID: 5650}
     - Class: 114
-      Script: {instanceID: 5428}
+      Script: {instanceID: 5778}
     - Class: 114
-      Script: {instanceID: 5654}
+      Script: {instanceID: 5856}
     - Class: 114
-      Script: {instanceID: 5782}
+      Script: {instanceID: 6058}
     - Class: 114
-      Script: {instanceID: 5860}
+      Script: {instanceID: 6080}
     - Class: 114
-      Script: {instanceID: 6062}
+      Script: {instanceID: 6654}
     - Class: 114
-      Script: {instanceID: 6084}
+      Script: {instanceID: 6660}
     - Class: 114
-      Script: {instanceID: 6658}
+      Script: {instanceID: 6736}
     - Class: 114
-      Script: {instanceID: 6664}
+      Script: {instanceID: 6864}
     - Class: 114
-      Script: {instanceID: 6740}
+      Script: {instanceID: 6944}
     - Class: 114
-      Script: {instanceID: 6868}
+      Script: {instanceID: 7056}
     - Class: 114
-      Script: {instanceID: 6948}
+      Script: {instanceID: 7380}
     - Class: 114
-      Script: {instanceID: 7384}
+      Script: {instanceID: 7390}
     - Class: 114
-      Script: {instanceID: 7394}
+      Script: {instanceID: 7418}
     - Class: 114
-      Script: {instanceID: 7422}
+      Script: {instanceID: 7732}
     - Class: 114
-      Script: {instanceID: 7736}
+      Script: {instanceID: 7946}
     - Class: 114
-      Script: {instanceID: 7950}
+      Script: {instanceID: 7962}
     - Class: 114
-      Script: {instanceID: 8072}
+      Script: {instanceID: 8070}
     - Class: 114
-      Script: {instanceID: 8474}
+      Script: {instanceID: 8472}
+    - Class: 114
+      Script: {instanceID: 8600}
     - Class: 114
       Script: {instanceID: 9664}
     - Class: 114
@@ -350,71 +361,73 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9920}
     - Class: 114
-      Script: {instanceID: 10152}
+      Script: {instanceID: 10062}
     - Class: 114
-      Script: {instanceID: 10800}
+      Script: {instanceID: 10154}
     - Class: 114
-      Script: {instanceID: 10804}
+      Script: {instanceID: 10802}
     - Class: 114
-      Script: {instanceID: 10928}
+      Script: {instanceID: 10806}
     - Class: 114
-      Script: {instanceID: 11212}
+      Script: {instanceID: 10930}
     - Class: 114
-      Script: {instanceID: 11280}
+      Script: {instanceID: 11214}
     - Class: 114
-      Script: {instanceID: 11420}
+      Script: {instanceID: 11282}
     - Class: 114
-      Script: {instanceID: 11432}
+      Script: {instanceID: 11422}
     - Class: 114
-      Script: {instanceID: 11598}
+      Script: {instanceID: 11434}
     - Class: 114
-      Script: {instanceID: 11732}
+      Script: {instanceID: 11600}
     - Class: 114
-      Script: {instanceID: 12038}
+      Script: {instanceID: 11734}
     - Class: 114
-      Script: {instanceID: 12098}
+      Script: {instanceID: 12040}
     - Class: 114
-      Script: {instanceID: 12140}
+      Script: {instanceID: 12100}
     - Class: 114
-      Script: {instanceID: 12670}
+      Script: {instanceID: 12142}
     - Class: 114
-      Script: {instanceID: 12884}
+      Script: {instanceID: 12672}
     - Class: 114
-      Script: {instanceID: 12906}
+      Script: {instanceID: 12886}
     - Class: 114
-      Script: {instanceID: 12966}
+      Script: {instanceID: 12908}
     - Class: 114
-      Script: {instanceID: 13196}
+      Script: {instanceID: 12968}
     - Class: 114
-      Script: {instanceID: 13506}
+      Script: {instanceID: 13198}
     - Class: 114
-      Script: {instanceID: 13616}
+      Script: {instanceID: 13508}
     - Class: 114
-      Script: {instanceID: 13884}
+      Script: {instanceID: 13618}
     - Class: 114
-      Script: {instanceID: 14044}
+      Script: {instanceID: 13886}
     - Class: 114
-      Script: {instanceID: 14152}
+      Script: {instanceID: 14046}
     - Class: 114
-      Script: {instanceID: 14254}
+      Script: {instanceID: 14154}
     - Class: 114
-      Script: {instanceID: 14324}
+      Script: {instanceID: 14256}
     - Class: 114
-      Script: {instanceID: 14404}
+      Script: {instanceID: 14326}
     - Class: 114
-      Script: {instanceID: 14576}
+      Script: {instanceID: 14406}
     - Class: 114
-      Script: {instanceID: 14906}
+      Script: {instanceID: 14578}
     - Class: 114
-      Script: {instanceID: 15294}
+      Script: {instanceID: 14908}
     - Class: 114
-      Script: {instanceID: 15316}
+      Script: {instanceID: 15296}
     - Class: 114
-      Script: {instanceID: 15888}
+      Script: {instanceID: 15318}
     - Class: 114
-      Script: {instanceID: 42698}
+      Script: {instanceID: 15890}
     - Class: 114
-      Script: {instanceID: 44278}
+      Script: {instanceID: 36384}
+    - Class: 114
+      Script: {instanceID: 36502}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1366,6 +1379,12 @@ ScriptsOnlyBuild:
     className: ClientNetworkTransform
   - hash:
       serializedVersion: 2
+      Hash: 0369a85e5d5c7045836d5e3c271c8bf7
+    assemblyName: Assembly-CSharp
+    namespaceName: Tanks
+    className: Health
+  - hash:
+      serializedVersion: 2
       Hash: 41edf1f7828466a73580cae5e7be9b87
     assemblyName: Unity.RenderPipelines.Universal.Runtime
     namespaceName: UnityEngine.Rendering.Universal
@@ -1466,6 +1485,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Universal.Runtime
     namespaceName: UnityEngine.Rendering.Universal
     className: UniversalRendererData
+  - hash:
+      serializedVersion: 2
+      Hash: 218d859e367767fd6a9d9360968dfa4b
+    assemblyName: Assembly-CSharp
+    namespaceName: Tanks
+    className: HealthDisplay
   - hash:
       serializedVersion: 2
       Hash: 28873fe9170abb2910f2c4b88a93bb0f
@@ -1688,6 +1713,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Core.Runtime
     namespaceName: UnityEngine.Rendering
     className: LensFlareComponentSRP
+  - hash:
+      serializedVersion: 2
+      Hash: 46cc42747c024a532351490bc77af7ce
+    assemblyName: Assembly-CSharp
+    namespaceName: Tanks
+    className: DealDamageOnContact
   - hash:
       serializedVersion: 2
       Hash: bcdedb1b3a567eb05111be4716618ce1
@@ -2566,16 +2597,16 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 0369a85e5d5c7045836d5e3c271c8bf7
+      Hash: 96bd697aec46c11e6adda2171af36079
     assemblyName: Assembly-CSharp
     namespaceName: Tanks
-    className: Health
+    className: BulletCollectable
   - hash:
       serializedVersion: 2
-      Hash: 218d859e367767fd6a9d9360968dfa4b
+      Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Assembly-CSharp
     namespaceName: Tanks
-    className: HealthDisplay
+    className: BagCollectable
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
