@@ -26,5 +26,11 @@ namespace Tanks
             AlreadyCollect = true;
             visualCollectable.SetActive(false);
         }
+
+        [ClientRpc]
+        private void OnCollectClientRpc()
+        {
+            visualCollectable.SetActive(false);
+        }
     }
 }

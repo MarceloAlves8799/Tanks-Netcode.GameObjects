@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638253090071869714
-    m_Hash: 1735896962
+      ticks: 638258383709545921
+    m_Hash: 1808402293
   m_LockFileStatus:
     m_FilePath: D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638253090165739419
-    m_Hash: 2315244994
+      ticks: 638258383709545921
+    m_Hash: 425688699
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -2425,6 +2425,7 @@ m_ResolvedPackages:
     - 2.0.3
     - 2.0.4
     - 2.0.5
+    - 2.0.6
     compatible:
     - 0.1.4-preview
     - 0.1.5-preview
@@ -2450,6 +2451,7 @@ m_ResolvedPackages:
     - 2.0.3
     - 2.0.4
     - 2.0.5
+    - 2.0.6
     recommended: 
     deprecated: []
   dependencies:
@@ -2518,6 +2520,7 @@ m_ResolvedPackages:
     all:
     - 1.0.0
     - 3.0.0-exp.1
+    - 3.0.0-exp.3
     compatible:
     - 1.0.0
     recommended: 1.0.0
@@ -4700,6 +4703,7 @@ m_ResolvedPackages:
     - 2.0.4
     - 2.0.5
     - 2.0.6
+    - 2.0.7
     compatible:
     - 0.1.7-preview
     - 0.1.8-preview
@@ -4720,6 +4724,7 @@ m_ResolvedPackages:
     - 2.0.4
     - 2.0.5
     - 2.0.6
+    - 2.0.7
     recommended: 
     deprecated: []
   dependencies: []
@@ -4791,6 +4796,7 @@ m_ResolvedPackages:
     - 2.0.3
     - 2.0.4
     - 2.0.5
+    - 2.0.6
     compatible:
     - 0.1.6-preview
     - 0.1.7-preview
@@ -4809,6 +4815,7 @@ m_ResolvedPackages:
     - 2.0.3
     - 2.0.4
     - 2.0.5
+    - 2.0.6
     recommended: 
     deprecated: []
   dependencies:
@@ -5226,11 +5233,13 @@ m_ResolvedPackages:
     - 2.5.0-pre.3
     - 2.5.0
     - 2.6.1
+    - 2.7.1
     compatible:
     - 2.4.0
     - 2.5.0-pre.3
     - 2.5.0
     - 2.6.1
+    - 2.7.1
     recommended: 2.4.0
     deprecated: []
   dependencies:
