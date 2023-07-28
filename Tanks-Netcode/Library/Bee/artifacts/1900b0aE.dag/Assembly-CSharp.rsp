@@ -440,6 +440,7 @@
 "Assets/Scripts/Inputs/InputReader.cs"
 "Assets/Scripts/Inputs/InputTest.cs"
 "Assets/Scripts/Networking/ApplicationController.cs"
+"Assets/Scripts/Networking/Client/AuthenticationWrapper.cs"
 "Assets/Scripts/Networking/Client/ClientGameManager.cs"
 "Assets/Scripts/Networking/Client/ClientSingleton.cs"
 "Assets/Scripts/Networking/Host/HostGameManager.cs"

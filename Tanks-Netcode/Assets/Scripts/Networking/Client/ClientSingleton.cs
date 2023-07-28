@@ -25,7 +25,7 @@ namespace Tanks
             }
         }
 
-        private ClientGameManager gameManager;
+        public ClientGameManager GameManager { get; private set; }
 
 
         private void Start()
@@ -33,11 +33,11 @@ namespace Tanks
             DontDestroyOnLoad(gameObject);
         }
 
-        public async Task CreateClient()
+        public async Task<bool> CreateClient()
         {
-            gameManager = new ClientGameManager();
+            GameManager = new ClientGameManager();
 
-            await gameManager.InitAsync();
+            return await GameManager.InitAsync();
         }
     }
 }
