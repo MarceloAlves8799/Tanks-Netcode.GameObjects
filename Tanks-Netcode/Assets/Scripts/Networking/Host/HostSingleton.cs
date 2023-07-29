@@ -25,7 +25,7 @@ namespace Tanks
             }
         }
 
-        private HostGameManager gameManager;
+        public HostGameManager GameManager { get; private set; }
 
 
         private void Start()
@@ -35,7 +35,7 @@ namespace Tanks
 
         public void CreateHost()
         {
-            gameManager = new HostGameManager();
+            GameManager = new HostGameManager();
         }
 
     }

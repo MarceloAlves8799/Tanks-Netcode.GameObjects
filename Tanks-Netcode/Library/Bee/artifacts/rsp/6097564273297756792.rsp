@@ -34,6 +34,8 @@
 -a="D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/ScriptAssemblies/Unity.Services.Multiplay.dll"
 -a="D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/ScriptAssemblies/Unity.Services.Multiplay.Sqp.dll"
 -a="D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/ScriptAssemblies/Unity.Services.Multiplay.Wire.Internal.dll"
+-a="D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/ScriptAssemblies/Unity.Services.QoS.dll"
+-a="D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/ScriptAssemblies/Unity.Services.Relay.dll"
 -a="D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/ScriptAssemblies/Unity.Services.Wire.Internal.dll"
 -a="D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/ScriptAssemblies/Unity.TextMeshPro.dll"
 -a="D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/ScriptAssemblies/Unity.Timeline.dll"

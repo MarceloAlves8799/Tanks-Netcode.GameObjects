@@ -27,7 +27,7 @@
       "DisplayName": "Writing 6097564273297756792.rsp",
       "ActionType": "WriteFile",
       "PayloadOffset": 83,
-      "PayloadLength": 10873,
+      "PayloadLength": 11079,
       "PayloadDebugContentSnippet": "-a=\"D:/Unity/Tanks-Netcode.Gam",
       "Inputs": [],
       "Outputs": [
@@ -78,6 +78,8 @@
         "Library/ScriptAssemblies/Unity.Services.Multiplay.dll",
         "Library/ScriptAssemblies/Unity.Services.Multiplay.Sqp.dll",
         "Library/ScriptAssemblies/Unity.Services.Multiplay.Wire.Internal.dll",
+        "Library/ScriptAssemblies/Unity.Services.QoS.dll",
+        "Library/ScriptAssemblies/Unity.Services.Relay.dll",
         "Library/ScriptAssemblies/Unity.Services.Wire.Internal.dll",
         "Library/ScriptAssemblies/Unity.TextMeshPro.dll",
         "Library/ScriptAssemblies/Unity.Timeline.dll",
@@ -423,6 +425,12 @@
     },
     {
       "File": "Library/ScriptAssemblies/Unity.Services.Multiplay.Wire.Internal.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Services.QoS.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Services.Relay.dll"
     },
     {
       "File": "Library/ScriptAssemblies/Unity.Services.Wire.Internal.dll"

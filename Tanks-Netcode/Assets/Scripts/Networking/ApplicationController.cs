@@ -25,11 +25,11 @@ namespace Tanks
 
             else
             {
-                ClientSingleton clientSingleton = Instantiate(clientPrefab);
-                bool authenticated = await clientSingleton.CreateClient();
-
                 HostSingleton hostSingleton = Instantiate(hostPrefab);
                 hostSingleton.CreateHost();
+
+                ClientSingleton clientSingleton = Instantiate(clientPrefab);
+                bool authenticated = await clientSingleton.CreateClient();
 
                 // Go to main menu
                 if (authenticated)

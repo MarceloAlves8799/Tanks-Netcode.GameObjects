@@ -57,15 +57,15 @@ namespace Tanks
                     }
                 }
 
-                catch(AuthenticationException exception)
+                catch(AuthenticationException authException)
                 {
-                    Debug.LogError(exception);
+                    Debug.LogError(authException);
                     AuthenticationState = AuthenticationState.Error;
                 }
 
-                catch(RequestFailedException exception)
+                catch(RequestFailedException requestException)
                 {
-                    Debug.LogError(exception);
+                    Debug.LogError(requestException);
                     AuthenticationState = AuthenticationState.Error;
                 }
 

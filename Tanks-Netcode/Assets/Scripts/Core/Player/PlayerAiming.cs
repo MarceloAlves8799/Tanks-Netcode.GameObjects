@@ -19,6 +19,14 @@ namespace Tanks
             mainCamera = Camera.main;
         }
 
+        private void OnLevelWasLoaded(int level)
+        {
+            if(level == 2)
+            {
+                mainCamera = Camera.main;
+            }
+        }
+
         private void LateUpdate()
         {
             if (!IsOwner) return;
@@ -42,6 +50,7 @@ namespace Tanks
 
         private void HandleAimMouse()
         {
+
             Ray aimRay = mainCamera.ScreenPointToRay(inputReader.AimPosition);
             Plane terrainPlane = new Plane(Vector3.up, Vector3.zero);
             float rayDistance;
