@@ -30,6 +30,7 @@
 -a="D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Scheduler.dll"
 -a="D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Telemetry.dll"
 -a="D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Threading.dll"
+-a="D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.Services.Lobbies.dll"
 -a="D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.Services.Matchmaker.dll"
 -a="D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.Services.Multiplay.dll"
 -a="D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/Bee/PlayerScriptAssemblies/Unity.Services.Multiplay.Sqp.dll"

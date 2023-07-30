@@ -8,6 +8,7 @@ using System;
 using Unity.Netcode.Transports.UTP;
 using Unity.Netcode;
 using Unity.Networking.Transport.Relay;
+using System.Text;
 
 namespace Tanks
 {
@@ -49,6 +50,16 @@ namespace Tanks
 
             RelayServerData relayServerData = new RelayServerData(allocation, "dtls");
             transport.SetRelayServerData(relayServerData);
+
+            UserData userData = new UserData
+            {
+                userName = PlayerPrefs.GetString(NameSelector.PlayerNameKey, "Missing Name")
+            };
+
+            string payload = JsonUtility.ToJson(userData);
+            byte[] payloadBytes = Encoding.UTF8.GetBytes(payload);
+
+            NetworkManager.Singleton.NetworkConfig.ConnectionData = payloadBytes;
 
             NetworkManager.Singleton.StartClient();
 

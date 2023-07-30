@@ -27,7 +27,7 @@
       "DisplayName": "Writing 6097564273297756792.rsp",
       "ActionType": "WriteFile",
       "PayloadOffset": 83,
-      "PayloadLength": 11079,
+      "PayloadLength": 11185,
       "PayloadDebugContentSnippet": "-a=\"D:/Unity/Tanks-Netcode.Gam",
       "Inputs": [],
       "Outputs": [
@@ -74,6 +74,7 @@
         "Library/ScriptAssemblies/Unity.Services.Core.Scheduler.dll",
         "Library/ScriptAssemblies/Unity.Services.Core.Telemetry.dll",
         "Library/ScriptAssemblies/Unity.Services.Core.Threading.dll",
+        "Library/ScriptAssemblies/Unity.Services.Lobbies.dll",
         "Library/ScriptAssemblies/Unity.Services.Matchmaker.dll",
         "Library/ScriptAssemblies/Unity.Services.Multiplay.dll",
         "Library/ScriptAssemblies/Unity.Services.Multiplay.Sqp.dll",
@@ -413,6 +414,9 @@
     },
     {
       "File": "Library/ScriptAssemblies/Unity.Services.Core.Threading.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Services.Lobbies.dll"
     },
     {
       "File": "Library/ScriptAssemblies/Unity.Services.Matchmaker.dll"

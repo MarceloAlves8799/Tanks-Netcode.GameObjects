@@ -32,6 +32,7 @@ Payload for "WriteResponseFile Library/Bee/artifacts/rsp/6097564273297756792.rsp
 -a="D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/ScriptAssemblies/Unity.Services.Core.Scheduler.dll"
 -a="D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/ScriptAssemblies/Unity.Services.Core.Telemetry.dll"
 -a="D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/ScriptAssemblies/Unity.Services.Core.Threading.dll"
+-a="D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/ScriptAssemblies/Unity.Services.Lobbies.dll"
 -a="D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/ScriptAssemblies/Unity.Services.Matchmaker.dll"
 -a="D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/ScriptAssemblies/Unity.Services.Multiplay.dll"
 -a="D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode/Library/ScriptAssemblies/Unity.Services.Multiplay.Sqp.dll"
