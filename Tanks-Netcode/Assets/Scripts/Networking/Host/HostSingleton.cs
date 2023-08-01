@@ -38,5 +38,10 @@ namespace Tanks
             GameManager = new HostGameManager();
         }
 
+        private void OnDestroy()
+        {
+            GameManager?.Dispose();
+        }
+
     }
 }

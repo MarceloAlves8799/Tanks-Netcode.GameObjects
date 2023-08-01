@@ -370,6 +370,7 @@
 "Assets/Scripts/Networking/Client/AuthenticationWrapper.cs"
 "Assets/Scripts/Networking/Client/ClientGameManager.cs"
 "Assets/Scripts/Networking/Client/ClientSingleton.cs"
+"Assets/Scripts/Networking/Client/NetworkClient.cs"
 "Assets/Scripts/Networking/Host/HostGameManager.cs"
 "Assets/Scripts/Networking/Host/HostSingleton.cs"
 "Assets/Scripts/Networking/Server/NetworkServer.cs"

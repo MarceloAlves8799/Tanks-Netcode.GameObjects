@@ -12,10 +12,11 @@ using Unity.Services.Lobbies;
 using System.Collections.Generic;
 using System.Collections;
 using System.Text;
+using Unity.Services.Authentication;
 
 namespace Tanks
 {
-    public class HostGameManager
+    public class HostGameManager: IDisposable
     {
         private Allocation allocation;
         private string joinCode;
@@ -87,7 +88,8 @@ namespace Tanks
 
             UserData userData = new UserData
             {
-                userName = PlayerPrefs.GetString(NameSelector.PlayerNameKey, "Missing Name")
+                userName = PlayerPrefs.GetString(NameSelector.PlayerNameKey, "Missing Name"),
+                userAuthId = AuthenticationService.Instance.PlayerId
             };
 
             string payload = JsonUtility.ToJson(userData);
@@ -110,6 +112,28 @@ namespace Tanks
                 Lobbies.Instance.SendHeartbeatPingAsync(lobbyId);
                 yield return delay;
             }
+        }
+
+        public async void Dispose()
+        {
+            HostSingleton.Instance.StopCoroutine(nameof(HeartbeatLobby));
+
+            if (!string.IsNullOrEmpty(lobbyId))
+            {
+                try
+                {
+                    await Lobbies.Instance.DeleteLobbyAsync(lobbyId);
+                }
+
+                catch (LobbyServiceException lobbyServiceException)
+                {
+                    Debug.LogError(lobbyServiceException.Message);
+                }
+
+                lobbyId = string.Empty;
+            }
+
+            networkServer?.Dispose();
         }
     }
 }

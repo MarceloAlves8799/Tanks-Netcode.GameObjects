@@ -39,5 +39,10 @@ namespace Tanks
 
             return await GameManager.InitAsync();
         }
+
+        private void OnDestroy()
+        {
+            GameManager?.Dispose();
+        }
     }
 }
