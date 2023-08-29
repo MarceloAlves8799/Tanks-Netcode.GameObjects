@@ -437,6 +437,7 @@
 "Assets/Scripts/Core/Player/PlayerAiming.cs"
 "Assets/Scripts/Core/Player/PlayerMovement.cs"
 "Assets/Scripts/Core/Player/PlayerShooting.cs"
+"Assets/Scripts/Core/Player/TankPlayer.cs"
 "Assets/Scripts/Core/UI/Game/HealthDisplay.cs"
 "Assets/Scripts/Core/UI/Menu/LobbiesList.cs"
 "Assets/Scripts/Core/UI/Menu/LobbyItem.cs"

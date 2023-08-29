@@ -51,6 +51,8 @@ namespace Tanks
         private void HandleAimMouse()
         {
 
+            if (mainCamera == null) return;
+
             Ray aimRay = mainCamera.ScreenPointToRay(inputReader.AimPosition);
             Plane terrainPlane = new Plane(Vector3.up, Vector3.zero);
             float rayDistance;
