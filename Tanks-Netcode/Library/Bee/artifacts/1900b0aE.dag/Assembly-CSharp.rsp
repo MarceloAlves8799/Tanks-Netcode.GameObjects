@@ -432,6 +432,8 @@
 "Assets/Scripts/Core/Collectables/Spawner.cs"
 "Assets/Scripts/Core/Combat/DealDamageOnContact.cs"
 "Assets/Scripts/Core/Combat/Health.cs"
+"Assets/Scripts/Core/Combat/RespawnHandler.cs"
+"Assets/Scripts/Core/Environment/SpawnPoint.cs"
 "Assets/Scripts/Core/Player/BagCollectable.cs"
 "Assets/Scripts/Core/Player/BagCollector.cs"
 "Assets/Scripts/Core/Player/PlayerAiming.cs"
