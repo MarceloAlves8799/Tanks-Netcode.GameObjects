@@ -436,6 +436,7 @@
 "Assets/Scripts/Core/Player/BagCollector.cs"
 "Assets/Scripts/Core/Player/PlayerAiming.cs"
 "Assets/Scripts/Core/Player/PlayerMovement.cs"
+"Assets/Scripts/Core/Player/PlayerNameDisplay.cs"
 "Assets/Scripts/Core/Player/PlayerShooting.cs"
 "Assets/Scripts/Core/Player/TankPlayer.cs"
 "Assets/Scripts/Core/UI/Game/HealthDisplay.cs"

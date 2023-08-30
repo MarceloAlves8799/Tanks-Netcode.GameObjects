@@ -5,7 +5,6 @@ using UnityEngine;
 
 namespace Tanks
 {
-
     public class NetworkServer: IDisposable
     {
 
@@ -39,6 +38,22 @@ namespace Tanks
         private void OnNetworkReady()
         {
             networkManager.OnClientDisconnectCallback += OnClientDisconnect;
+
+        }
+
+        public UserData GetUserDataByClientId(ulong clientId)
+        {
+            if(clientIdToAuth.TryGetValue(clientId, out string authId))
+            {
+                if(authIdToUserData.TryGetValue(authId, out UserData data))
+                {
+                    return data;
+                }
+
+                return null;
+            }
+
+            return null;
         }
 
         private void OnClientDisconnect(ulong clientId)

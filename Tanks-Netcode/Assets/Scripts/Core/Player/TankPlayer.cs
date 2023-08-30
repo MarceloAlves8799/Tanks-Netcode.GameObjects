@@ -1,6 +1,7 @@
 using Unity.Netcode;
 using Cinemachine;
 using UnityEngine;
+using Unity.Collections;
 
 namespace Tanks
 {
@@ -12,6 +13,8 @@ namespace Tanks
         [Header("References")]
         [SerializeField] private int ownerPriority;
 
+        public NetworkVariable<FixedString32Bytes> PlayerName = new NetworkVariable<FixedString32Bytes>();
+
 
         private void Awake()
         {
@@ -20,6 +23,12 @@ namespace Tanks
 
         public override void OnNetworkSpawn()
         {
+            if (IsServer)
+            {
+                UserData userData = HostSingleton.Instance.GameManager.NetworkServer.GetUserDataByClientId(OwnerClientId);
+                PlayerName.Value = userData.userName;
+            }
+
             if (IsOwner)
             {
                 virtualCamera.Priority = ownerPriority;
