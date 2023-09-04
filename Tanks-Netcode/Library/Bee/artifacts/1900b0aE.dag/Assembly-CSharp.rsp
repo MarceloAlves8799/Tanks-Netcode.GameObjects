@@ -444,6 +444,7 @@
 "Assets/Scripts/Core/UI/Game/HealthDisplay.cs"
 "Assets/Scripts/Core/UI/Game/Leaderboard/Leaderboard.cs"
 "Assets/Scripts/Core/UI/Game/Leaderboard/LeaderboardEntityDisplay.cs"
+"Assets/Scripts/Core/UI/Game/Leaderboard/LeaderboardEntityState.cs"
 "Assets/Scripts/Core/UI/Menu/LobbiesList.cs"
 "Assets/Scripts/Core/UI/Menu/LobbyItem.cs"
 "Assets/Scripts/Core/UI/Menu/MainMenu.cs"
