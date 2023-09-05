@@ -15,7 +15,7 @@ D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50260
+54659
 Successfully changed project path to: D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode
 D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ D:/Unity/Tanks-Netcode.GameObjects/Tanks-Netcode
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8416] Host "[IP] 192.168.15.5 [Port] 0 [Flags] 2 [Guid] 4195798449 [EditorId] 4195798449 [Version] 1048832 [Id] WindowsEditor(7,Marcelo-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [36716] Host "[IP] 192.168.15.5 [Port] 0 [Flags] 2 [Guid] 3763194340 [EditorId] 3763194340 [Version] 1048832 [Id] WindowsEditor(7,Marcelo-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8416] Host "[IP] 192.168.15.5 [Port] 0 [Flags] 2 [Guid] 4195798449 [EditorId] 4195798449 [Version] 1048832 [Id] WindowsEditor(7,Marcelo-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [36716] Host "[IP] 192.168.15.5 [Port] 0 [Flags] 2 [Guid] 3763194340 [EditorId] 3763194340 [Version] 1048832 [Id] WindowsEditor(7,Marcelo-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 21.63 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 25.39 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.2.4f1 (8216e0211249)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.4f1/Editor/Data/Resources/UnitySubsystems
@@ -67,48 +67,48 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56580
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56848
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.4f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.4f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.008062 seconds.
-- Loaded All Assemblies, in  0.268 seconds
+Registered in 0.008558 seconds.
+- Loaded All Assemblies, in  0.238 seconds
 Native extension for UWP target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 193 ms
+Android Extension - Scanning For ADB Devices 169 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.414 seconds
+- Finished resetting the current domain, in  0.369 seconds
 Domain Reload Profiling:
-	ReloadAssembly (154ms)
-		BeginReloadAssembly (63ms)
+	ReloadAssembly (138ms)
+		BeginReloadAssembly (51ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (62ms)
+			LoadAssemblies (49ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (106ms)
-				TypeCache.Initialize (106ms)
-					TypeCache.ScanAssembly (104ms)
+			SetupTypeCache (93ms)
+				TypeCache.Initialize (93ms)
+					TypeCache.ScanAssembly (91ms)
 				ResolveRequiredComponents (0ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (374ms)
+			SetupLoadedEditorAssemblies (332ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (273ms)
+				InitializePlatformSupportModulesInManaged (237ms)
 				SetLoadedEditorAssemblies (3ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (67ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
+				ProcessInitializeOnLoadAttributes (63ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -118,8 +118,8 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Unity\Tanks-Netcode.GameObjects\Tanks-Netcode\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Unity\Tanks-Netcode.GameObjects\Tanks-Netcode\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.006 seconds
-Refreshing native plugins compatible for Editor in 14.94 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.892 seconds
+Refreshing native plugins compatible for Editor in 18.17 ms, found 3 plugins.
 OnLevelWasLoaded was found on PlayerAiming
 This message has been deprecated and will be removed in a later version of Unity.
 Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
@@ -128,44 +128,44 @@ Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.713 seconds
+- Finished resetting the current domain, in  0.710 seconds
 Domain Reload Profiling:
-	ReloadAssembly (187ms)
-		BeginReloadAssembly (96ms)
+	ReloadAssembly (190ms)
+		BeginReloadAssembly (93ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		LoadAllAssembliesAndSetupDomain (815ms)
-			LoadAssemblies (312ms)
+			CreateAndSetChildDomain (22ms)
+		LoadAllAssembliesAndSetupDomain (699ms)
+			LoadAssemblies (295ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (539ms)
-				TypeCache.Initialize (343ms)
-					TypeCache.ScanAssembly (337ms)
+			SetupTypeCache (438ms)
+				TypeCache.Initialize (266ms)
+					TypeCache.ScanAssembly (261ms)
 				ResolveRequiredComponents (8ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (577ms)
+			SetupLoadedEditorAssemblies (582ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (18ms)
 				SetLoadedEditorAssemblies (3ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (77ms)
-				ProcessInitializeOnLoadAttributes (353ms)
-				ProcessInitializeOnLoadMethodAttributes (120ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (348ms)
+				ProcessInitializeOnLoadMethodAttributes (127ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 17.59 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 18.72 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7604 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 156 unused Assets / (1.7 MB). Loaded Objects now: 7967.
+Unloading 7606 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 156 unused Assets / (1.7 MB). Loaded Objects now: 7969.
 Memory consumption went from 1.14 GB to 1.14 GB.
-Total: 8.251400 ms (FindLiveObjects: 0.570000 ms CreateObjectMapping: 0.180400 ms MarkObjects: 6.911300 ms  DeleteObjects: 0.589000 ms)
+Total: 8.847800 ms (FindLiveObjects: 0.791700 ms CreateObjectMapping: 0.552200 ms MarkObjects: 6.880900 ms  DeleteObjects: 0.621100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -179,147 +179,57 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 2207.190042 seconds.
-  path: Assets/Prefabs/UI/LeaderboardEntity.prefab
-  artifactKey: Guid(ecbef9da52e07864399cd4f35df5ee2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/UI/LeaderboardEntity.prefab using Guid(ecbef9da52e07864399cd4f35df5ee2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d2d86b46063b2b1c183a880feebdb4a') in 0.051596 seconds 
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 177.583150 seconds.
-  path: Assets/Scripts/Core/UI/Game/Leaderboard.cs
-  artifactKey: Guid(a61f7642b23c5f54880d8f02230e85c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Scripts/Core/UI/Game/Leaderboard.cs using Guid(a61f7642b23c5f54880d8f02230e85c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43fb1ba9274bb398cadc5c8902efc1f7') in 0.000538 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Unity\Tanks-Netcode.GameObjects\Tanks-Netcode\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Unity\Tanks-Netcode.GameObjects\Tanks-Netcode\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.935 seconds
-Refreshing native plugins compatible for Editor in 19.42 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.845 seconds
+Refreshing native plugins compatible for Editor in 14.83 ms, found 3 plugins.
 Native extension for UWP target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.167 seconds
+- Finished resetting the current domain, in  2.669 seconds
 Domain Reload Profiling:
-	ReloadAssembly (207ms)
-		BeginReloadAssembly (125ms)
+	ReloadAssembly (208ms)
+		BeginReloadAssembly (133ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (49ms)
-		LoadAllAssembliesAndSetupDomain (723ms)
-			LoadAssemblies (322ms)
+			CreateAndSetChildDomain (60ms)
+		LoadAllAssembliesAndSetupDomain (633ms)
+			LoadAssemblies (258ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (429ms)
-				TypeCache.Initialize (257ms)
-					TypeCache.ScanAssembly (250ms)
-				ResolveRequiredComponents (9ms)
+			SetupTypeCache (403ms)
+				TypeCache.Initialize (239ms)
+					TypeCache.ScanAssembly (233ms)
+				ResolveRequiredComponents (7ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (559ms)
+			SetupLoadedEditorAssemblies (533ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
+				InitializePlatformSupportModulesInManaged (19ms)
 				SetLoadedEditorAssemblies (3ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (77ms)
-				ProcessInitializeOnLoadAttributes (328ms)
-				ProcessInitializeOnLoadMethodAttributes (124ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-OnLevelWasLoaded was found on PlayerAiming
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-Refreshing native plugins compatible for Editor in 14.11 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7421 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 133 unused Assets / (1.7 MB). Loaded Objects now: 7985.
-Memory consumption went from 1.10 GB to 1.10 GB.
-Total: 7.450200 ms (FindLiveObjects: 0.424600 ms CreateObjectMapping: 0.200000 ms MarkObjects: 6.321600 ms  DeleteObjects: 0.503200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 18.609800 seconds.
-  path: Assets/Scripts/Core/UI/Game/Leaderboard.cs
-  artifactKey: Guid(a61f7642b23c5f54880d8f02230e85c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Scripts/Core/UI/Game/Leaderboard.cs using Guid(a61f7642b23c5f54880d8f02230e85c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001221 seconds  code(4) message(Build asset version error: assets/scripts/core/ui/game/leaderboard.cs in SourceAssetDB has modification time of '2023-08-31T22:38:41.196002Z' while content on disk has modification time of '2023-08-31T22:38:41.4135817Z')
-  ERROR: Build asset version error: assets/scripts/core/ui/game/leaderboard.cs in SourceAssetDB has modification time of '2023-08-31T22:38:41.196002Z' while content on disk has modification time of '2023-08-31T22:38:41.4135817Z'
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Unity\Tanks-Netcode.GameObjects\Tanks-Netcode\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Unity\Tanks-Netcode.GameObjects\Tanks-Netcode\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.841 seconds
-Refreshing native plugins compatible for Editor in 17.51 ms, found 3 plugins.
-Native extension for UWP target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.192 seconds
-Domain Reload Profiling:
-	ReloadAssembly (194ms)
-		BeginReloadAssembly (120ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (48ms)
-		LoadAllAssembliesAndSetupDomain (644ms)
-			LoadAssemblies (255ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (419ms)
-				TypeCache.Initialize (249ms)
-					TypeCache.ScanAssembly (242ms)
-				ResolveRequiredComponents (8ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (640ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (23ms)
-				SetLoadedEditorAssemblies (4ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (98ms)
-				ProcessInitializeOnLoadAttributes (384ms)
-				ProcessInitializeOnLoadMethodAttributes (125ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (299ms)
+				ProcessInitializeOnLoadMethodAttributes (118ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
-Script is not up to date after domain reload: guid(a61f7642b23c5f54880d8f02230e85c8) path("Assets/Scripts/Core/UI/Game/Leaderboard.cs") state(2)
 OnLevelWasLoaded was found on PlayerAiming
 This message has been deprecated and will be removed in a later version of Unity.
 Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-Refreshing native plugins compatible for Editor in 25.95 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 19.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7420 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 133 unused Assets / (1.7 MB). Loaded Objects now: 8000.
+Unloading 7422 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 133 unused Assets / (1.7 MB). Loaded Objects now: 7985.
 Memory consumption went from 1.10 GB to 1.10 GB.
-Total: 8.554500 ms (FindLiveObjects: 0.450300 ms CreateObjectMapping: 0.652500 ms MarkObjects: 7.019000 ms  DeleteObjects: 0.432000 ms)
+Total: 8.963500 ms (FindLiveObjects: 0.646700 ms CreateObjectMapping: 0.761800 ms MarkObjects: 6.924500 ms  DeleteObjects: 0.629200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -337,184 +247,103 @@ Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Unity\Tanks-Netcode.GameObjects\Tanks-Netcode\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Unity\Tanks-Netcode.GameObjects\Tanks-Netcode\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.832 seconds
-Refreshing native plugins compatible for Editor in 15.09 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.825 seconds
+Refreshing native plugins compatible for Editor in 38.09 ms, found 3 plugins.
 Native extension for UWP target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.016 seconds
+- Finished resetting the current domain, in  1.022 seconds
 Domain Reload Profiling:
-	ReloadAssembly (203ms)
-		BeginReloadAssembly (120ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (49ms)
-		LoadAllAssembliesAndSetupDomain (624ms)
-			LoadAssemblies (249ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (407ms)
-				TypeCache.Initialize (239ms)
-					TypeCache.ScanAssembly (232ms)
-				ResolveRequiredComponents (7ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (558ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
-				SetLoadedEditorAssemblies (4ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (92ms)
-				ProcessInitializeOnLoadAttributes (327ms)
-				ProcessInitializeOnLoadMethodAttributes (111ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Script is not up to date after domain reload: guid(a61f7642b23c5f54880d8f02230e85c8) path("Assets/Scripts/Core/UI/Game/Leaderboard.cs") state(2)
-OnLevelWasLoaded was found on PlayerAiming
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-Refreshing native plugins compatible for Editor in 14.41 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7420 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 133 unused Assets / (1.7 MB). Loaded Objects now: 8016.
-Memory consumption went from 1.10 GB to 1.10 GB.
-Total: 7.570500 ms (FindLiveObjects: 0.461700 ms CreateObjectMapping: 0.179400 ms MarkObjects: 6.462600 ms  DeleteObjects: 0.465900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Unity\Tanks-Netcode.GameObjects\Tanks-Netcode\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Unity\Tanks-Netcode.GameObjects\Tanks-Netcode\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.818 seconds
-Refreshing native plugins compatible for Editor in 13.45 ms, found 3 plugins.
-Native extension for UWP target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.012 seconds
-Domain Reload Profiling:
-	ReloadAssembly (191ms)
-		BeginReloadAssembly (117ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (46ms)
-		LoadAllAssembliesAndSetupDomain (622ms)
-			LoadAssemblies (258ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (394ms)
-				TypeCache.Initialize (232ms)
-					TypeCache.ScanAssembly (225ms)
-				ResolveRequiredComponents (7ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (474ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (280ms)
-				ProcessInitializeOnLoadMethodAttributes (97ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-OnLevelWasLoaded was found on PlayerAiming
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-Refreshing native plugins compatible for Editor in 22.80 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7421 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 133 unused Assets / (1.7 MB). Loaded Objects now: 8033.
-Memory consumption went from 1.10 GB to 1.10 GB.
-Total: 6.760800 ms (FindLiveObjects: 0.494800 ms CreateObjectMapping: 0.182600 ms MarkObjects: 5.690300 ms  DeleteObjects: 0.392600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 120.546043 seconds.
-  path: Assets/Scripts/Core/UI/Game/Leaderboard
-  artifactKey: Guid(add16e3a13a186c4282ee85101e87a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Scripts/Core/UI/Game/Leaderboard using Guid(add16e3a13a186c4282ee85101e87a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94839e9734c883deccfdb593d95c37ab') in 0.001213 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 15.081891 seconds.
-  path: Assets/Scripts/Core/UI/Game/LeaderboardEntityDisplay.cs
-  artifactKey: Guid(86da6af2737323a498699137e68c6b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Scripts/Core/UI/Game/LeaderboardEntityDisplay.cs using Guid(86da6af2737323a498699137e68c6b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a105c683bd1769f919908ba120eff92a') in 0.000461 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Unity\Tanks-Netcode.GameObjects\Tanks-Netcode\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Unity\Tanks-Netcode.GameObjects\Tanks-Netcode\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.837 seconds
-Refreshing native plugins compatible for Editor in 14.77 ms, found 3 plugins.
-Native extension for UWP target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.003 seconds
-Domain Reload Profiling:
-	ReloadAssembly (196ms)
+	ReloadAssembly (199ms)
 		BeginReloadAssembly (121ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (50ms)
-		LoadAllAssembliesAndSetupDomain (637ms)
-			LoadAssemblies (250ms)
+			CreateAndSetChildDomain (51ms)
+		LoadAllAssembliesAndSetupDomain (623ms)
+			LoadAssemblies (240ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (417ms)
-				TypeCache.Initialize (244ms)
-					TypeCache.ScanAssembly (237ms)
+			SetupTypeCache (412ms)
+				TypeCache.Initialize (230ms)
+					TypeCache.ScanAssembly (224ms)
 				ResolveRequiredComponents (8ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (539ms)
+			SetupLoadedEditorAssemblies (517ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (2ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (3ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (71ms)
-				ProcessInitializeOnLoadAttributes (336ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (302ms)
+				ProcessInitializeOnLoadMethodAttributes (117ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+OnLevelWasLoaded was found on PlayerAiming
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+Refreshing native plugins compatible for Editor in 15.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7422 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 133 unused Assets / (1.7 MB). Loaded Objects now: 8001.
+Memory consumption went from 1.10 GB to 1.10 GB.
+Total: 6.472000 ms (FindLiveObjects: 0.419200 ms CreateObjectMapping: 0.181100 ms MarkObjects: 5.505800 ms  DeleteObjects: 0.365300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Tanks-Netcode.GameObjects\Tanks-Netcode\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Tanks-Netcode.GameObjects\Tanks-Netcode\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.804 seconds
+Refreshing native plugins compatible for Editor in 13.15 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.023 seconds
+Domain Reload Profiling:
+	ReloadAssembly (191ms)
+		BeginReloadAssembly (119ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		LoadAllAssembliesAndSetupDomain (608ms)
+			LoadAssemblies (237ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (400ms)
+				TypeCache.Initialize (234ms)
+					TypeCache.ScanAssembly (228ms)
+				ResolveRequiredComponents (7ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (512ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (300ms)
 				ProcessInitializeOnLoadMethodAttributes (107ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
@@ -523,12 +352,12 @@ Domain Reload Profiling:
 OnLevelWasLoaded was found on PlayerAiming
 This message has been deprecated and will be removed in a later version of Unity.
 Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-Refreshing native plugins compatible for Editor in 16.30 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 13.31 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 7422 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 133 unused Assets / (1.7 MB). Loaded Objects now: 8050.
+Unloading 133 unused Assets / (1.7 MB). Loaded Objects now: 8017.
 Memory consumption went from 1.10 GB to 1.10 GB.
-Total: 8.336200 ms (FindLiveObjects: 0.477500 ms CreateObjectMapping: 0.182600 ms MarkObjects: 7.214000 ms  DeleteObjects: 0.461300 ms)
+Total: 6.555200 ms (FindLiveObjects: 0.427700 ms CreateObjectMapping: 0.339800 ms MarkObjects: 5.426900 ms  DeleteObjects: 0.359900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -543,197 +372,100 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.587959 seconds.
-  path: Assets/Scripts/Core/UI/Game/LeaderboardEntityDisplay.cs
-  artifactKey: Guid(86da6af2737323a498699137e68c6b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 28088.933306 seconds.
+  path: Assets/Scripts/Core/UI/Game/Leaderboard/LeaderboardEntityState.cs
+  artifactKey: Guid(cebb3ce571f27dc42b1185533947ed68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Scripts/Core/UI/Game/LeaderboardEntityDisplay.cs using Guid(86da6af2737323a498699137e68c6b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37743dc8ad2d582dd17e0c4d4f5fa997') in 0.001246 seconds 
+Start importing Assets/Scripts/Core/UI/Game/Leaderboard/LeaderboardEntityState.cs using Guid(cebb3ce571f27dc42b1185533947ed68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3de50357f822fa902ae969a31b428bf7') in 0.001439 seconds 
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 1.759863 seconds.
-  path: Assets/Scripts/Core/UI/Game/LeaderboardEntityDisplay.cs
-  artifactKey: Guid(86da6af2737323a498699137e68c6b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 15.235022 seconds.
+  path: Assets/Scripts/Core/UI/Game/Leaderboard/LeaderboardEntityState.cs
+  artifactKey: Guid(cebb3ce571f27dc42b1185533947ed68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Scripts/Core/UI/Game/LeaderboardEntityDisplay.cs using Guid(86da6af2737323a498699137e68c6b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5113b6c3fe614623e85de83b5116d5fb') in 0.000439 seconds 
+Start importing Assets/Scripts/Core/UI/Game/Leaderboard/LeaderboardEntityState.cs using Guid(cebb3ce571f27dc42b1185533947ed68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000385 seconds  code(4) message(Build asset version error: assets/scripts/core/ui/game/leaderboard/leaderboardentitystate.cs in SourceAssetDB has modification time of '2023-09-04T23:02:49.8726084Z' while content on disk has modification time of '2023-09-04T23:02:50.1301527Z')
+  ERROR: Build asset version error: assets/scripts/core/ui/game/leaderboard/leaderboardentitystate.cs in SourceAssetDB has modification time of '2023-09-04T23:02:49.8726084Z' while content on disk has modification time of '2023-09-04T23:02:50.1301527Z'
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.236433 seconds.
+  path: Assets/Scripts/Core/UI/Game/Leaderboard/LeaderboardEntityState.cs
+  artifactKey: Guid(cebb3ce571f27dc42b1185533947ed68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scripts/Core/UI/Game/Leaderboard/LeaderboardEntityState.cs using Guid(cebb3ce571f27dc42b1185533947ed68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6789544ddd44e35bab2a4b43df41dd00') in 0.000410 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.571171 seconds.
+  path: Assets/Scripts/Core/UI/Game/Leaderboard/LeaderboardEntityState.cs
+  artifactKey: Guid(cebb3ce571f27dc42b1185533947ed68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scripts/Core/UI/Game/Leaderboard/LeaderboardEntityState.cs using Guid(cebb3ce571f27dc42b1185533947ed68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5360182315819d0920586e3c978aa3f') in 0.000379 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 37.427703 seconds.
+  path: Assets/Scripts/Core/UI/Game/Leaderboard/LeaderboardEntityState.cs
+  artifactKey: Guid(cebb3ce571f27dc42b1185533947ed68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scripts/Core/UI/Game/Leaderboard/LeaderboardEntityState.cs using Guid(cebb3ce571f27dc42b1185533947ed68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f4ea22ea9a0d8290b041cccc4168095') in 0.000499 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 18.912161 seconds.
+  path: Assets/Scripts/Core/UI/Game/Leaderboard/LeaderboardEntityState.cs
+  artifactKey: Guid(cebb3ce571f27dc42b1185533947ed68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scripts/Core/UI/Game/Leaderboard/LeaderboardEntityState.cs using Guid(cebb3ce571f27dc42b1185533947ed68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62ac27c183792b3c9b8e953492343cce') in 0.000408 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.091805 seconds.
+  path: Assets/Scripts/Core/UI/Game/Leaderboard/LeaderboardEntityState.cs
+  artifactKey: Guid(cebb3ce571f27dc42b1185533947ed68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scripts/Core/UI/Game/Leaderboard/LeaderboardEntityState.cs using Guid(cebb3ce571f27dc42b1185533947ed68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16f86700ec2309ce4a515968c12ada39') in 0.000466 seconds 
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Unity\Tanks-Netcode.GameObjects\Tanks-Netcode\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Unity\Tanks-Netcode.GameObjects\Tanks-Netcode\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.843 seconds
-Refreshing native plugins compatible for Editor in 15.74 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.814 seconds
+Refreshing native plugins compatible for Editor in 13.02 ms, found 3 plugins.
 Native extension for UWP target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.994 seconds
+- Finished resetting the current domain, in  1.015 seconds
 Domain Reload Profiling:
-	ReloadAssembly (189ms)
-		BeginReloadAssembly (116ms)
+	ReloadAssembly (205ms)
+		BeginReloadAssembly (131ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (46ms)
-		LoadAllAssembliesAndSetupDomain (651ms)
-			LoadAssemblies (247ms)
+			CreateAndSetChildDomain (58ms)
+		LoadAllAssembliesAndSetupDomain (606ms)
+			LoadAssemblies (241ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (432ms)
-				TypeCache.Initialize (254ms)
-					TypeCache.ScanAssembly (245ms)
+			SetupTypeCache (396ms)
+				TypeCache.Initialize (230ms)
+					TypeCache.ScanAssembly (224ms)
 				ResolveRequiredComponents (7ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (507ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (312ms)
-				ProcessInitializeOnLoadMethodAttributes (97ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-OnLevelWasLoaded was found on PlayerAiming
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-Refreshing native plugins compatible for Editor in 13.37 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7422 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 133 unused Assets / (1.7 MB). Loaded Objects now: 8066.
-Memory consumption went from 1.10 GB to 1.10 GB.
-Total: 6.654200 ms (FindLiveObjects: 0.464300 ms CreateObjectMapping: 0.186000 ms MarkObjects: 5.586100 ms  DeleteObjects: 0.417300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 11.240776 seconds.
-  path: Assets/Scripts/Core/UI/Game/LeaderboardEntityDisplay.cs
-  artifactKey: Guid(86da6af2737323a498699137e68c6b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Scripts/Core/UI/Game/LeaderboardEntityDisplay.cs using Guid(86da6af2737323a498699137e68c6b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001317 seconds  code(4) message(Build asset version error: assets/scripts/core/ui/game/leaderboardentitydisplay.cs in SourceAssetDB has modification time of '2023-08-31T22:41:17.4577734Z' while content on disk has modification time of '2023-08-31T22:41:17.6899852Z')
-  ERROR: Build asset version error: assets/scripts/core/ui/game/leaderboardentitydisplay.cs in SourceAssetDB has modification time of '2023-08-31T22:41:17.4577734Z' while content on disk has modification time of '2023-08-31T22:41:17.6899852Z'
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Unity\Tanks-Netcode.GameObjects\Tanks-Netcode\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Unity\Tanks-Netcode.GameObjects\Tanks-Netcode\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.859 seconds
-Refreshing native plugins compatible for Editor in 15.76 ms, found 3 plugins.
-Native extension for UWP target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.107 seconds
-Domain Reload Profiling:
-	ReloadAssembly (191ms)
-		BeginReloadAssembly (119ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (47ms)
-		LoadAllAssembliesAndSetupDomain (664ms)
-			LoadAssemblies (253ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (442ms)
-				TypeCache.Initialize (256ms)
-					TypeCache.ScanAssembly (248ms)
-				ResolveRequiredComponents (8ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (543ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (78ms)
-				ProcessInitializeOnLoadAttributes (323ms)
-				ProcessInitializeOnLoadMethodAttributes (116ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Script is not up to date after domain reload: guid(86da6af2737323a498699137e68c6b7a) path("Assets/Scripts/Core/UI/Game/LeaderboardEntityDisplay.cs") state(2)
-OnLevelWasLoaded was found on PlayerAiming
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-Refreshing native plugins compatible for Editor in 14.62 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7421 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 133 unused Assets / (1.7 MB). Loaded Objects now: 8081.
-Memory consumption went from 1.10 GB to 1.10 GB.
-Total: 6.817800 ms (FindLiveObjects: 0.465400 ms CreateObjectMapping: 0.184700 ms MarkObjects: 5.786700 ms  DeleteObjects: 0.380100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Unity\Tanks-Netcode.GameObjects\Tanks-Netcode\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Unity\Tanks-Netcode.GameObjects\Tanks-Netcode\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.870 seconds
-Refreshing native plugins compatible for Editor in 28.11 ms, found 3 plugins.
-Native extension for UWP target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.978 seconds
-Domain Reload Profiling:
-	ReloadAssembly (200ms)
-		BeginReloadAssembly (119ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (47ms)
-		LoadAllAssembliesAndSetupDomain (666ms)
-			LoadAssemblies (261ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (436ms)
-				TypeCache.Initialize (247ms)
-					TypeCache.ScanAssembly (241ms)
-				ResolveRequiredComponents (8ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (488ms)
+			SetupLoadedEditorAssemblies (485ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (18ms)
 				SetLoadedEditorAssemblies (3ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (75ms)
 				ProcessInitializeOnLoadAttributes (285ms)
-				ProcessInitializeOnLoadMethodAttributes (103ms)
+				ProcessInitializeOnLoadMethodAttributes (99ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -741,12 +473,12 @@ Domain Reload Profiling:
 OnLevelWasLoaded was found on PlayerAiming
 This message has been deprecated and will be removed in a later version of Unity.
 Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-Refreshing native plugins compatible for Editor in 17.64 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 16.06 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7422 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 133 unused Assets / (1.7 MB). Loaded Objects now: 8098.
+Unloading 7423 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 133 unused Assets / (1.7 MB). Loaded Objects now: 8034.
 Memory consumption went from 1.10 GB to 1.10 GB.
-Total: 7.148200 ms (FindLiveObjects: 0.502400 ms CreateObjectMapping: 0.179300 ms MarkObjects: 6.069300 ms  DeleteObjects: 0.396300 ms)
+Total: 6.918200 ms (FindLiveObjects: 0.486600 ms CreateObjectMapping: 0.185400 ms MarkObjects: 5.838800 ms  DeleteObjects: 0.406800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -759,83 +491,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 11.904179 seconds.
-  path: Assets/Scripts/Core/UI/Game/LeaderboardEntityDisplay.cs
-  artifactKey: Guid(86da6af2737323a498699137e68c6b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Scripts/Core/UI/Game/LeaderboardEntityDisplay.cs using Guid(86da6af2737323a498699137e68c6b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c52d4073ea3de7215658dd8715990e8e') in 0.001264 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Unity\Tanks-Netcode.GameObjects\Tanks-Netcode\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Unity\Tanks-Netcode.GameObjects\Tanks-Netcode\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.872 seconds
-Refreshing native plugins compatible for Editor in 23.45 ms, found 3 plugins.
-Native extension for UWP target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.948 seconds
-Domain Reload Profiling:
-	ReloadAssembly (206ms)
-		BeginReloadAssembly (123ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (50ms)
-		LoadAllAssembliesAndSetupDomain (659ms)
-			LoadAssemblies (281ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (408ms)
-				TypeCache.Initialize (241ms)
-					TypeCache.ScanAssembly (234ms)
-				ResolveRequiredComponents (8ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (468ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (273ms)
-				ProcessInitializeOnLoadMethodAttributes (99ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-OnLevelWasLoaded was found on PlayerAiming
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-Refreshing native plugins compatible for Editor in 13.30 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7422 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 133 unused Assets / (1.7 MB). Loaded Objects now: 8114.
-Memory consumption went from 1.10 GB to 1.10 GB.
-Total: 6.432000 ms (FindLiveObjects: 0.439600 ms CreateObjectMapping: 0.181300 ms MarkObjects: 5.419200 ms  DeleteObjects: 0.391400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 76.184918 seconds.
-  path: Assets/Scripts/Core/UI/Game/Leaderboard/Leaderboard.cs
-  artifactKey: Guid(a61f7642b23c5f54880d8f02230e85c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Scripts/Core/UI/Game/Leaderboard/Leaderboard.cs using Guid(a61f7642b23c5f54880d8f02230e85c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b628e57b532546ad1c593cecef5d412') in 0.001231 seconds 
-Number of asset objects unloaded after import = 0
