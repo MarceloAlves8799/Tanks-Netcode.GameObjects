@@ -16,7 +16,6 @@ namespace Tanks
         [Header("References")]
         private CinemachineVirtualCamera virtualCamera;
         public Health Health { get; private set; }
-        public int Kills { get; private set; }
 
         [Header("Settings")]
         [SerializeField] private int ownerPriority;

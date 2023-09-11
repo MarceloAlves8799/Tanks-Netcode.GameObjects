@@ -98,6 +98,7 @@ namespace Tanks
             NetworkManager.Singleton.NetworkConfig.ConnectionData = payloadBytes;
 
             NetworkManager.Singleton.StartHost();
+            NetworkServer.OnClientLeft += HandleClientLeft;
 
             string gameSceneName = "Game";
             NetworkManager.Singleton.SceneManager.LoadScene(gameSceneName, LoadSceneMode.Single);
@@ -114,7 +115,12 @@ namespace Tanks
             }
         }
 
-        public async void Dispose()
+        public void Dispose()
+        {
+            Shutdown();
+        }
+
+        public async void Shutdown()
         {
             HostSingleton.Instance.StopCoroutine(nameof(HeartbeatLobby));
 
@@ -133,7 +139,21 @@ namespace Tanks
                 lobbyId = string.Empty;
             }
 
+            NetworkServer.OnClientLeft -= HandleClientLeft;
+
             NetworkServer?.Dispose();
+        }
+
+        private async void HandleClientLeft(string authId)
+        {
+            try
+            {
+                await LobbyService.Instance.RemovePlayerAsync(lobbyId, authId);
+            }
+            catch(LobbyServiceException e)
+            {
+                Debug.LogError(e.Message);
+            }
         }
     }
 }

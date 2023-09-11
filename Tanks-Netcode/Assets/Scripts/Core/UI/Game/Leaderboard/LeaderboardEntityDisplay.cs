@@ -1,12 +1,15 @@
 using UnityEngine;
 using TMPro;
 using Unity.Collections;
+using Unity.Netcode;
 
 namespace Tanks
 {
     public class LeaderboardEntityDisplay : MonoBehaviour
     {
         private TMP_Text displayText;
+
+        [SerializeField] private Color textColor;
 
         public ulong ClientId { get; private set; }
         public FixedString32Bytes PlayerName { get; private set; }
@@ -23,6 +26,11 @@ namespace Tanks
             ClientId = clientId;
             PlayerName = playerName;
 
+            if(clientId == NetworkManager.Singleton.LocalClientId)
+            {
+                displayText.color = textColor;
+            }
+
             UpdateCoins(coins);
         }
 
@@ -32,9 +40,9 @@ namespace Tanks
             UpdateText();
         }
 
-        private void UpdateText()
+        public void UpdateText()
         {
-            displayText.text = $"1. {PlayerName} ({Coins})";
+            displayText.text = $"{transform.GetSiblingIndex() + 1}. {PlayerName} ({Coins})";
         }
 
 

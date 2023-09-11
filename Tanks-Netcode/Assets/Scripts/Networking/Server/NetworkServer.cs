@@ -9,6 +9,9 @@ namespace Tanks
     {
 
         private NetworkManager networkManager;
+
+        public Action<string> OnClientLeft;
+
         
         private Dictionary<ulong, string> clientIdToAuth = new Dictionary<ulong, string>();
         private Dictionary<string, UserData> authIdToUserData = new Dictionary<string, UserData>();
@@ -64,6 +67,7 @@ namespace Tanks
             {
                 clientIdToAuth.Remove(clientId);
                 authIdToUserData.Remove(authId);
+                OnClientLeft?.Invoke(authId);
             }
         }
 

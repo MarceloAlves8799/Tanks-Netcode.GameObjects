@@ -23,8 +23,13 @@ namespace Tanks
         {
             if (clientId != 0 && clientId != networkManager.LocalClientId) return;
 
+            Disconnect();
+        }
+
+        public void Disconnect()
+        {
             string menuSceneName = "MainMenu";
-            if(SceneManager.GetActiveScene().name != menuSceneName)
+            if (SceneManager.GetActiveScene().name != menuSceneName)
             {
                 SceneManager.LoadScene(menuSceneName);
             }

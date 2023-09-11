@@ -10,6 +10,7 @@ namespace Tanks
     {
         [SerializeField] private Transform leadboardEntityHolder;
         [SerializeField] private LeaderboardEntityDisplay leaderboardEntityPrefab;
+        [SerializeField] private int entitiesToDisplay = 8;
 
         private NetworkList<LeaderboardEntityState> leaderboardEntities;
         private List<LeaderboardEntityDisplay> entityDisplays = new List<LeaderboardEntityDisplay>();
@@ -105,6 +106,26 @@ namespace Tanks
                     }
 
                     break;
+            }
+
+            entityDisplays.Sort((x, y) => y.Coins.CompareTo(x.Coins));
+
+            for(int i = 0; i < entityDisplays.Count; i++)
+            {
+                entityDisplays[i].transform.SetSiblingIndex(i);
+                entityDisplays[i].UpdateText();
+                entityDisplays[i].gameObject.SetActive(i <= entitiesToDisplay - 1);
+            }
+
+            LeaderboardEntityDisplay myDisplay = entityDisplays.FirstOrDefault(x => x.ClientId == NetworkManager.Singleton.LocalClientId);
+
+            if(myDisplay != null)
+            {
+                if(myDisplay.transform.GetSiblingIndex() >= entitiesToDisplay)
+                {
+                    leadboardEntityHolder.GetChild(entitiesToDisplay - 1).gameObject.SetActive(false);
+                    myDisplay.gameObject.SetActive(true);
+                }
             }
         }
 

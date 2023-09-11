@@ -71,9 +71,15 @@ namespace Tanks
 
         }
 
+        public void Disconnect()
+        {
+            networkClient.Disconnect();
+        }
+
         public void Dispose()
         {
             networkClient?.Dispose();
         }
+
     }
 }
